@@ -1,0 +1,1532 @@
+X 01-------- 000.000 base 00-dirtree 0000 / base/system CROSS DIETLIBC 0
+O -1-------- 100.000 base mkinitrd 2012-12-12 / base/system CROSS 0
+O -1-------- 100.000 contrib mkinitcpio 0.5.15 / base/system CROSS 0
+O -1-------- 100.000 java java-dirtree 0000 / base/system CROSS DIETLIBC 0
+X 01-------- 100.300 base linux-header 2.6.37 / base/kernel CROSS DIETLIBC 0
+O 01-------- 101.600 base eglibc 2_10-r9124 / base/library CROSS LIBC NO-AS-NEEDED NO-SSP 0
+X 01-------- 101.600 base glibc 2.13 / base/library CROSS LIBC NO-AS-NEEDED NO-SSP 0
+O 01-------- 101.700 base uclibc 0.9.30.1 / extra/base CROSS NOPARALLEL LIBC 0
+O -1-------- 101.800 develop boehm-gc 7.2 / extra/development CROSS 0
+O 01-------- 102.000 base dietlibc 0.32 / base/library CROSS NOPARALLEL DIETLIBC LIBC NO-SSP 0
+O -1-------- 102.000 perl perl 5.16.0 / base/development CROSS DIETLIBC NOPARALLEL FPIC-QUIRK 0
+X 01-------- 102.001 base autoconf 2.69 / base/development CROSS DIETLIBC NOPARALLEL 0
+X 01-------- 102.002 base automake 1.13.1 / base/development CROSS 0
+O -1-------- 102.020 filesystem disktype 10_cvs20091020 / base/tool CROSS DIETLIBC 0
+X -1-------- 102.030 filesystem udev 167 / base/system base/kernel CROSS DIETLIBC 0
+X 01-------- 102.040 archiver gzip 1.5 / base/tool CROSS DIETLIBC 0
+O -1-------- 102.040 base embutils 0.19 / base/system CROSS DIETLIBC 0
+O -1-------- 102.041 editors minised 1.14 / base/development CROSS DIETLIBC 0
+O -1-------- 102.045 base hotplug++ 0.1.3 / base/system CROSS DIETLIBC 0
+X 01-------- 102.050 archiver cpio 2.11 / base/tool CROSS DIETLIBC 0
+X 01-------- 102.050 base module-init-tools 3.16 / base/kernel CROSS DIETLIBC 0
+X -1-------- 102.050 base u-boot 2010.06 / base/boot CROSS 0
+X -1-------- 102.050 shells pdksh 5.2.14 / extra/shell CROSS DIETLIBC 0
+O -1-------- 102.060 arm linux24-psionw 2.4.27-vrs1-5mx2-ska-2 / base/kernel CROSS KERNEL 0
+X -1-------- 102.060 base linux 3.6.11 / base/kernel CROSS KERNEL 0
+O -1-------- 102.061 base areca 1.20.0X.13 / base/system CROSS 0
+X 01-------- 102.080 base flex 2.5.37 / base/tool CROSS DIETLIBC 0
+X 01-------- 102.100 develop binutils 2.23.1 / base/development CROSS DIETLIBC 0
+X 01-------- 102.100 scientific gmp 5.0.5 / base/library CROSS DIETLIBC 0
+X 01-------- 102.200 scientific mpfr 3.1.1 / base/library CROSS DIETLIBC 0
+X 01-------- 102.250 scientific mpc 0.9 / base/library CROSS DIETLIBC 0
+X 0--------- 102.290 develop ppl 0.11.2 / base/development NOPARALLEL 0
+X 0--------- 102.295 develop cloog-ppl 0.15.11 / base/development 0
+X 01-------- 102.300 develop gcc 4.7.2 / base/development CROSS NO-SSP DIETLIBC CC KCC CXX F77 0
+O -1-------- 102.300 develop libatomic_ops 1.2 / extra/development CROSS 0
+X 01-------- 102.700 base libtool 2.4.2 / base/development CROSS NO-AS-NEEDED NO-LIBTOOL-FIX AUTOMAKE-QUIRK 0
+O -1-------- 102.900 base rng-tools 3 / extra/base CROSS DIETLIBC 0
+O 01-------- 103.000 archiver lzma 4.32.7 / base/tool CROSS 0
+O -1-------- 103.000 java jikes 1.22 / extra/development CROSS 0
+O -1-------- 103.800 develop ccbench 0.2 / base/development CROSS 0
+O -1-------- 103.900 base termcap 1.3.1 / base/library CROSS DIETLIBC FPIC-QUIRK 0
+O -1-------- 104.000 base ncurses 5.9 / base/library CROSS DIETLIBC FPIC-QUIRK 0
+O -1-------- 104.100 base libelf 0.8.13 / base/library CROSS NOPARALLEL 0
+X -1-------- 104.100 base readline 6.2-004 / base/library CROSS DIETLIBC 0
+O -1-------- 104.100 develop libunwind 1.1 / base/library CROSS 0
+X -1-------- 104.200 develop strace 4.7 / base/development CROSS 0
+O -1-------- 104.300 base libaio 0.3.106-avr32 / base/development CROSS 0
+X -1-------- 104.500 base expat 2.1.0 / base/library CROSS 0
+X -1-------- 104.600 security openssl 1.0.1c / base/library CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 104.800 database gdbm 1.10 / base/library CROSS 0
+O -1-------- 105.000 base libiconv 1.13.1 / base/tool CROSS 0
+O -1-------- 105.000 base texinfo 4.13a / base/tool CROSS DIETLIBC 0
+O -1-------- 105.000 develop duma 2_5_15 / base/development CROSS NOPARALLEL 0
+O -1-------- 105.000 develop electricfence 2_4_13 / base/development CROSS 0
+O -1-------- 105.000 develop gnupth 2.0.7 / extra/development CROSS NOPARALLEL FPIC-QUIRK 0
+O -1-------- 105.000 filesystem sysfsutils 2.1.0 / base/system extra/filesystem CROSS FPIC-QUIRK 0
+O -1-------- 105.100 network yp-tools 2.12 / extra/network CROSS 0
+O -1-------- 105.200 base bonnie++ 1.03e / base/tool CROSS 0
+O -1-------- 105.299 base attr 2.4.43 / base/system CROSS NOPARALLEL 0
+O -1-------- 105.300 base acl 2.2.47 / base/tool CROSS NOPARALLEL 0
+X 01-------- 105.300 base m4 1.4.16 / base/development CROSS DIETLIBC 0
+X 01-------- 105.400 develop ccache 3.1.7 / base/development CROSS DIETLIBC 0
+O 01-------- 105.400 develop distcc 2.18.3 / base/development CROSS DIETLIBC 0
+O -1-------- 105.600 scientific gsl 1.15 / base/library CROSS 0
+X -1-------- 105.700 base time 1.7 / base/development CROSS DIETLIBC 0
+X 01-------- 105.800 base gettext 0.18.2 / base/library CROSS NO-LIBTOOL-FIX 0
+X -1-------- 105.900 archiver zlib 1.2.7 / base/library CROSS DIETLIBC FPIC-QUIRK 0
+X 01-------- 105.950 base file 5.12 / base/tool CROSS DIETLIBC 0
+O -1-------- 106.000 archiver pigz 2.2.5 / base/library CROSS DIETLIBC 0
+O -1-------- 106.000 base cpufrequtils 008 / base/tool CROSS 0
+O -1-------- 106.000 base libsafe 2.0-16 / base/library CROSS 0
+X 01-------- 106.000 develop libffi 3.0.11 / extra/development CROSS 0
+X -1-------- 106.000 x11 freetype 2.4.11 / extra/font CROSS FPIC-QUIRK 0
+O -1-------- 106.001 base cpufreqd 2.4.2 / base/tool CROSS 0
+O 01-------- 106.100 filesystem squashfs-tools 4.2 / base/system CROSS 0
+O -1-------- 106.100 security loop-aes 3.4a / extra/crypto CROSS 0
+O -1-------- 106.200 shells kiss 0.21 / base/tool CROSS DIETLIBC 0
+O -1-------- 106.400 shells ash 0.2 / extra/shell CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 106.600 shells mksh R40d / base/system CROSS 0
+O -1-------- 106.600 shells sash 3.7 / base/system CROSS DIETLIBC 0
+O -1-------- 106.600 shells zsh 5.0.0 / base/system CROSS NOPARALLEL 0
+O -1-------- 107.000 database bdb 4.8.26 / base/library CROSS FPIC-QUIRK 0
+O -1-------- 107.100 base coreutils 8.13 / base/tool CROSS DIETLIBC 0
+O 01-------- 107.200 base findutils 4.4.2 / base/tool CROSS DIETLIBC 0
+O -1-------- 107.300 base tree 1.6.0 / base/tool CROSS 0
+X -1-------- 107.400 base mktemp 1.7 / base/tool CROSS DIETLIBC AUTOMAKE-QUIRK 0
+X -1-------- 107.500 develop diffutils 3.2 / base/development CROSS DIETLIBC 0
+O -1-------- 107.590 develop libunistring 0.9.2.1 / extra/development CROSS 0
+X -1-------- 107.600 develop patch 2.7.1 / base/development CROSS DIETLIBC 0
+X -1-------- 107.700 base make 3.82 / base/development CROSS DIETLIBC 0
+O -1-------- 107.800 develop patchutils 0.3.2 / base/development CROSS 0
+O -1-------- 107.900 base grep 2.14 / base/tool CROSS DIETLIBC 0
+O -1-------- 108.000 base ugrep 1.7 / base/development CROSS DIETLIBC 0
+O -1-------- 108.000 editors sed 4.2.2 / base/development CROSS DIETLIBC 0
+O 01-------- 108.020 archiver lzo 2.06 / base/library CROSS FPIC-QUIRK 0
+O 01-------- 108.040 archiver lzop 1.03 / base/tool CROSS DIETLIBC 0
+O -1-------- 108.200 archiver cabextract 1.4 / extra/archive CROSS 0
+O -1-------- 108.200 archiver unshield 0.6 / extra/archive CROSS 0
+O 01-------- 108.300 archiver tar 1.26 / base/tool CROSS DIETLIBC 0
+O -1-------- 108.400 base gawk 4.0.2 / base/tool CROSS DIETLIBC 0
+O -1-------- 108.600 archiver 7zip 9.20 / base/tool CROSS 0
+X -1-------- 108.600 archiver bzip2 1.0.6 / base/tool CROSS DIETLIBC FPIC-QUIRK 0
+O 0--------- 108.600 archiver xz 5.0.4 / base/tool 0
+O -1-------- 108.800 base less 436 / base/tool CROSS 0
+O -1-------- 108.900 base groff 1.22.2 / base/tool CROSS NOPARALLEL 0
+O -1-------- 109.000 base man 1.6g / base/tool CROSS 0
+O -1-------- 109.100 editors joe 3.7 / extra/editor CROSS 0
+O -1-------- 109.200 editors elvis-tiny 1.4-22 / base/tool CROSS DIETLIBC 0
+O -1-------- 109.200 editors nvi 1.79 / base/tool CROSS DIETLIBC 0
+X -1-------- 109.400 base bison 2.7 / base/development CROSS DIETLIBC 0
+O -1-------- 109.500 base bc 1.06 / base/tool CROSS 0
+X -1-------- 109.500 shells bash 4.2-042 / base/system CROSS DIETLIBC 0
+O -1-------- 109.600 archiver afio 2.5 / base/tool CROSS 0
+O -1-------- 109.600 base mt-st 1.1 / base/tool CROSS 0
+O -1-------- 109.700 editors ed 1.5 / base/tool CROSS 0
+O -1-------- 109.800 base miscfiles 1.5 / base/system CROSS 0
+O -1-------- 109.900 base sharutils 4.6.3 / base/tool CROSS 0
+O -1-------- 110.000 base libusb 1.0.8 / base/library NOPARALLEL CROSS 0
+O -1-------- 110.000 base libusb-compat 0.1.4 / base/library NOPARALLEL CROSS 0
+O -1-------- 110.000 base pcre 8.32 / base/library CROSS 0
+O -1-------- 110.000 base sgutils 1.35 / base/system CROSS 0
+O -1-------- 110.000 base stone 2004-11-19 / base/system CROSS 0
+O -1-------- 110.000 develop zthread 2.3.2 / extra/development CROSS 0
+X 01-------- 110.000 gnome2 glib 2.34.3 / extra/development CROSS 0
+O -1-------- 110.000 network libidn 1.26 / base/library CROSS 0
+O -1-------- 110.000 security crypto++ 560 / extra/security CROSS 0
+O -1-------- 110.100 base units 2.01 / base/tool CROSS 0
+O -1-------- 110.300 base slang 2.2.2 / base/development CROSS NOPARALLEL 0
+O -1-------- 110.400 base mmv 1.01b / base/tool CROSS 0
+O 01-------- 110.600 archiver unzip 60 / base/tool CROSS 0
+O -1-------- 110.700 archiver zip 30 / base/tool CROSS 0
+O -1-------- 110.700 base runit 2.0.0 / base/system CROSS INIT 0
+X -1-------- 110.800 audio alsa-lib 1.0.26 / base/system base/kernel CROSS 0
+O -1-------- 110.800 audio alsa-oss 1.0.25 / base/system base/kernel CROSS 0
+O -1-------- 110.800 audio alsa-plugins 1.0.26 / base/system base/kernel CROSS 0
+O -1-------- 110.800 audio alsa-utils 1.0.26 / base/system base/kernel CROSS 0
+O -1-------- 111.000 audio audiofile 0.3.5 / extra/multimedia CROSS 0
+O -1-------- 111.000 network rocknet 2005-06-24 / base/system CROSS 0
+X 01-------- 111.050 base pkgconfig 0.28 / base/tool CROSS 0
+O -1-------- 111.100 network openslp 1.2.1 / extra/network extra/server CROSS 0
+O -1-------- 111.200 network tcp_wrappers 7.6 / base/system CROSS FPIC-QUIRK 0
+O 01-------- 111.400 base gperf 3.0.4 / base/development CROSS 0
+O -1-------- 111.800 develop cvs 1.11.23 / base/development CROSS 0
+O -1-------- 112.000 develop indent 2.2.10 / extra/development CROSS 0
+O -1-------- 112.000 develop uncrustify 0.54 / extra/development CROSS 0
+X -1-------- 112.000 xorg libpthread-stubs 0.3 / base/x11 CROSS 0
+O -1-------- 112.100 audio esound 0.2.41 / extra/multimedia CROSS 0
+X -1-------- 112.100 graphic libpng 1.2.44 / extra/multimedia CROSS 0
+X -1-------- 112.300 network curl 7.28.1 / base/tool CROSS DIETLIBC 0
+X 01-------- 112.300 textproc libxml 2.8.0 / base/library CROSS DIETLIBC 0
+O -1-------- 112.330 security libgpg-error 1.10 / extra/crypto CROSS 0
+O -1-------- 112.340 security libgcrypt 1.5.0 / extra/crypto CROSS 0
+X 01-------- 112.350 textproc libxslt 1.1.28 / base/library CROSS 0
+O -1-------- 112.400 develop redet 8.25 / extra/development CROSS 0
+O -1-------- 112.400 develop rman 3.2 / extra/development CROSS 0
+O -1-------- 112.400 network fget 0.4.1 / extra/network CROSS DIETLIBC 0
+X -1-------- 112.400 xorg bigreqsproto 1.1.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg compositeproto 0.4.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg damageproto 1.2.1 / base/x11 CROSS 0
+O -1-------- 112.400 xorg dmxproto 2.3.1 / base/x11 CROSS 0
+O -1-------- 112.400 xorg dri2proto 2.8 / base/x11 CROSS 0
+X -1-------- 112.400 xorg evieext 1.1.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg fixesproto 5.0 / base/x11 CROSS 0
+X -1-------- 112.400 xorg fontcacheproto 0.1.3 / base/x11 CROSS 0
+X -1-------- 112.400 xorg fontconfig 2.9.0 / base/x11 CROSS 0
+X -1-------- 112.400 xorg fontsproto 2.1.2 / base/x11 CROSS 0
+O -1-------- 112.400 xorg glproto 1.4.16 / base/x11 CROSS 0
+X -1-------- 112.400 xorg inputproto 2.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg kbproto 1.0.5 / base/x11 CROSS 0
+X -1-------- 112.400 xorg pixman 0.28.2 / base/x11 CROSS 0
+O -1-------- 112.400 xorg printproto 1.0.5 / base/x11 CROSS 0
+X -1-------- 112.400 xorg randrproto 1.4.0 / base/x11 CROSS 0
+X -1-------- 112.400 xorg recordproto 1.14.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg renderproto 0.11.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg resourceproto 1.2.0 / base/x11 CROSS 0
+X -1-------- 112.400 xorg scrnsaverproto 1.2.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg trapproto 3.4.3 / base/x11 CROSS 0
+X -1-------- 112.400 xorg videoproto 2.3.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xcmiscproto 1.2.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xextproto 7.2.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xf86bigfontproto 1.2.0 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xf86dgaproto 2.1 / base/x11 CROSS 0
+O -1-------- 112.400 xorg xf86driproto 2.1.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xf86miscproto 0.9.3 / base/x11 CROSS 0
+O -1-------- 112.400 xorg xf86rushproto 1.1.2 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xf86vidmodeproto 2.3.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xineramaproto 1.2.1 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xproto 7.0.23 / base/x11 CROSS 0
+O -1-------- 112.400 xorg xproxymanagementprotocol 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.400 xorg xtrans 1.2.7 / base/x11 CROSS 0
+X -1-------- 112.401 xorg libxau 1.0.7 / base/x11 CROSS 0
+X -1-------- 112.401 xorg xcb-proto 1.8 / base/x11 CROSS 0
+X -1-------- 112.402 xorg libxcb 1.8.1 / base/x11 CROSS NOPARALLEL 0
+X -1-------- 112.402 xorg libxdmcp 1.1.1 / base/x11 CROSS 0
+X -1-------- 112.403 xorg libx11 1.5.0 / base/x11 CROSS 0
+X -1-------- 112.404 xorg libxext 1.3.1 / base/x11 CROSS 0
+O -1-------- 112.405 xorg libdmx 1.1.2 / base/x11 CROSS 0
+X -1-------- 112.406 xorg libfontenc 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.407 xorg libfs 1.0.4 / base/x11 CROSS 0
+X -1-------- 112.408 xorg libice 1.0.8 / base/x11 CROSS 0
+O -1-------- 112.410 xorg liboldx 1.0.1 / base/x11 CROSS 0
+O -1-------- 112.410 xorg xcb-util 0.3.9 / base/x11 CROSS NOPARALLEL 0
+X -1-------- 112.411 xorg libsm 1.2.1 / base/x11 CROSS 0
+X -1-------- 112.412 xorg libxt 1.1.3 / base/x11 CROSS 0
+X -1-------- 112.413 xorg libxmu 1.1.1 / base/x11 CROSS 0
+X -1-------- 112.414 xorg libxpm 3.5.10 / base/x11 CROSS 0
+O -1-------- 112.415 xorg libxp 1.0.1 / base/x11 CROSS 0
+X -1-------- 112.416 xorg libxaw 1.0.11 / base/x11 CROSS 0
+O -1-------- 112.417 xorg libxfixes 5.0 / base/x11 CROSS 0
+O -1-------- 112.418 xorg libxcomposite 0.4.4 / base/x11 CROSS 0
+X -1-------- 112.419 xorg libxrender 0.9.7 / base/x11 CROSS 0
+O -1-------- 112.420 xorg libxdamage 1.1.4 / base/x11 CROSS 0
+O -1-------- 112.420 xorg rendercheck 1.4 / base/x11 CROSS 0
+O -1-------- 112.421 xorg libxcursor 1.1.13 / base/x11 CROSS 0
+O -1-------- 112.422 xorg libxevie 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.423 xorg libxfont 1.4.5 / base/x11 CROSS 0
+O -1-------- 112.424 xorg libxfontcache 1.0.5 / base/x11 CROSS 0
+X -1-------- 112.425 xorg libxft 2.3.1 / base/x11 CROSS 0
+X -1-------- 112.426 xorg libxi 1.6.1 / base/x11 CROSS 0
+O -1-------- 112.427 xorg libxinerama 1.1.2 / base/x11 CROSS 0
+X -1-------- 112.428 xorg libxkbfile 1.0.8 / base/x11 CROSS 0
+X -1-------- 112.429 xorg libxkbui 1.0.2 / base/x11 CROSS 0
+O -1-------- 112.430 xorg libxprintutil 1.0.1 / base/x11 CROSS 0
+O -1-------- 112.431 xorg libxprintapputil 1.0.1 / base/x11 CROSS 0
+X -1-------- 112.432 xorg libxrandr 1.4.0 / base/x11 CROSS 0
+O -1-------- 112.433 xorg libxres 1.0.6 / base/x11 CROSS 0
+O -1-------- 112.434 xorg libxscrnsaver 1.2.2 / base/x11 CROSS 0
+O -1-------- 112.435 xorg libxtrap 1.0.1 / base/x11 CROSS 0
+X -1-------- 112.436 xorg libxtst 1.2.1 / base/x11 CROSS 0
+O -1-------- 112.437 xorg libxv 1.0.7 / base/x11 CROSS 0
+O -1-------- 112.438 xorg libxvmc 1.0.7 / base/x11 CROSS 0
+O -1-------- 112.439 xorg libxxf86dga 1.1.3 / base/x11 CROSS 0
+X -1-------- 112.440 xorg libpciaccess 0.13.1 / base/x11 CROSS 0
+X -1-------- 112.440 xorg libxxf86misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.440 xorg makedepend 1.0.4 / base/x11 CROSS 0
+X -1-------- 112.441 xorg libxxf86vm 1.1.2 / base/x11 CROSS 0
+X -1-------- 112.444 xorg xbitmaps 1.1.0 / base/x11 CROSS 0
+X -1-------- 112.445 xorg font-util 1.3.0 / base/x11 CROSS 0
+O -1-------- 112.445 xorg libdrm 2.4.42 / base/x11 CROSS 0
+O -1-------- 112.446 x11 mesa 9.0.3 / base/x11 NOPARALLEL CROSS 0
+X -1-------- 112.447 xorg xorg-server 1.13.2 / base/x11 CROSS 0
+O -1-------- 112.450 xorg libva 1.0.6 / base/x11 CROSS 0
+O -1-------- 112.500 archiver zziplib 0.13.60 / base/tool CROSS 0
+X -1-------- 112.500 network dbus 1.6.8 / extra/network CROSS NO-AS-NEEDED 0
+O -1-------- 112.500 network ncftp 3.2.5 / extra/network CROSS 0
+O -1-------- 112.510 network dbus-glib 0.100 / extra/network CROSS NOPARALLEL NO-AS-NEEDED 0
+O -1-------- 112.550 graphic libexif 0.6.19 / extra/multimedia CROSS 0
+O -1-------- 112.550 graphic pngnq 1.1 / extra/multimedia CROSS 0
+X -1-------- 112.550 xorg mkfontscale 1.1.0 / base/x11 CROSS 0
+X 01-------- 112.560 xorg mkfontdir 1.0.7 / base/x11 CROSS 0
+O 11-------- 112.600 arm x-loader 1.4.4.4-3 / base/kernel CROSS 0
+O -1-------- 112.600 xorg appres 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.600 xorg bdftopcf 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg beforelight 1.0.5 / base/x11 CROSS 0
+X -1-------- 112.600 xorg bitmap 1.0.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg cf 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg editres 1.0.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg encodings 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-adobe 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-adobe-utopia 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-adobe-utopia-type1 1.0.4 / base/x11 CROSS 0
+X -1-------- 112.600 xorg font-alias 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-arabic-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-bh 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-bh-lucidatypewriter 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-bh-ttf 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-bh-type1 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-bitstream 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-bitstream-type1 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-cronyx-cyrillic 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.600 xorg font-cursor-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-daewoo-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-dec-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-ibm-type1 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-isas-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-jis-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-micro-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-misc-cyrillic 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.600 xorg font-misc-misc 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-mutt-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-schumacher-misc 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-screen-cyrillic 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-sony-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-sun-misc 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-winitzki-cyrillic 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg font-xfree86-type1 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg fonttosfnt 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg fslsfonts 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg fstobdf 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg gccmakedep 1.0.2 / base/x11 CROSS 0
+X -1-------- 112.600 xorg iceauth 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg ico 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg imake 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg listres 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg luit 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg mkcomposecache 1.2.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg oclock 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg pclcomp 0.99.2 / base/x11 CROSS 0
+X -1-------- 112.600 xorg rgb 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg rstart 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg scripts 1.0.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg sessreg 1.0.8 / base/x11 CROSS 0
+O -1-------- 112.600 xorg setxkbmap 1.3.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg showfont 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg smproxy 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg twm 1.0.7 / base/x11 CROSS 0
+O -1-------- 112.600 xorg viewres 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg x11perf 1.5.4 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xauth 1.0.7 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xbiff 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xcalc 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xclipboard 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xclock 1.0.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xcmsdb 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xconsole 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xcursorgen 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xdbedizzy 1.1.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xditview 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xdpyinfo 1.3.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xdriinfo 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xedit 1.2.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xev 1.2.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xeyes 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-acecad 1.5.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-aiptek 1.4.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-calcomp 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-citron 2.2.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-digitaledge 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-dmc 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-dynapro 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-elo2300 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-elographics 1.4.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-evdev 2.7.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-fpit 1.4.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-hyperpen 1.4.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-jamstudio 1.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-joystick 1.6.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-keyboard 1.6.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-magellan 1.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-magictouch 1.0.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-microtouch 1.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-mouse 1.8.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-mutouch 1.3.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-palmax 1.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-penmount 1.5.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-sample 1.0.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-spaceorb 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-summa 1.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-synaptics 1.5.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-tek4957 1.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-ur98 1.1.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-void 1.4.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-input-wacom 0.18.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-apm 1.2.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-ark 0.7.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-ast 0.97.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-ati 7.1.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-chips 1.2.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-cirrus 1.5.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-dummy 0.3.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-fbdev 0.4.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-glint 1.2.8 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-i128 1.3.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-imstt 1.1.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-mach64 6.9.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-mga 1.6.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-modesetting 0.6.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-neomagic 1.2.7 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-nv 2.1.20 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-r128 6.9.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-radeonhd 1.3.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-rendition 4.2.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-s3 0.6.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-s3virge 1.10.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-savage 2.3.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-siliconmotion 1.7.7 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-sis 0.10.7 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-sisusb 0.9.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-tdfx 1.4.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-tga 1.2.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-trident 1.3.6 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-tseng 1.2.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-v4l 0.2.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-vga 4.1.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-voodoo 1.2.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-xgi 1.6.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86-video-xgixp 1.8.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xf86dga 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xfd 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xfontsel 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xfs 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xfsinfo 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xfwp 1.0.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xgamma 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xgc 1.0.4 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xhost 1.0.5 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xinit 1.3.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xinput 1.6.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xkbcomp 1.2.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xkbevd 1.1.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xkbprint 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xkbutils 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xkill 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xload 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xlogo 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xlsatoms 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xlsclients 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xlsfonts 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xmag 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xman 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xmessage 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xmh 1.0.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xmodmap 1.0.7 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xmore 1.0.2 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xorg-util-macros 1.17 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xplsprinters 1.0.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xpr 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xprehashprinterlist 1.0.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xprop 1.2.1 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xrandr 1.4.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xrdb 1.0.9 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xrefresh 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xrx 1.0.4 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xset 1.2.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xsetmode 1.0.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xsetpointer 1.0.1 / base/x11 CROSS 0
+X -1-------- 112.600 xorg xsetroot 1.1.0 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xsm 1.0.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xstdcmap 1.0.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xtrap 1.0.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xvidtune 1.0.3 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xvinfo 1.1.1 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xwd 1.0.5 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xwininfo 1.1.2 / base/x11 CROSS 0
+O -1-------- 112.600 xorg xwud 1.0.4 / base/x11 CROSS 0
+O -1-------- 112.601 xorg xcursor-themes 1.0.3 / base/x11 CROSS 0
+X -1-------- 112.698 graphic libjpeg 9 / extra/multimedia CROSS 0
+O -1-------- 112.698 graphic libjpeg-turbo 1.2.0 / extra/multimedia CROSS 0
+X -1-------- 112.699 graphic libtiff 4.0.3 / extra/multimedia CROSS 0
+O -1-------- 112.700 graphic jbigkit 2.0 / extra/graphic CROSS FPIC-QUIRK 0
+O -1-------- 112.700 graphic leptonlib 1.62 / extra/graphic CROSS 0
+O -1-------- 112.800 base liblockfile 1.09 / base/library CROSS FPIC-QUIRK 0
+O -1-------- 113.000 gnome14 glib12 1.2.10 / extra/development AUTOMAKE-QUIRK CROSS 0
+O -1-------- 113.800 mail perl-mail-sender 0.8.22 / extra/development CROSS 0
+O -1-------- 113.900 base dialog 1.1-20100428 / base/tool CROSS DIETLIBC 0
+O 01-------- 114.300 archiver mine 0.23 / base/setup CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 114.400 archiver bize 0.7 / base/setup CROSS 0
+O -1-------- 114.600 mail anomy-mailtools 1.76 / extra/network extra/security CROSS 0
+O -1-------- 114.700 mail mailscanner 4.81.4-1 / extra/network CROSS 0
+O -1-------- 114.900 audio libcdaudio 0.99.12p2 / extra/multimedia CROSS 0
+O -1-------- 114.900 base recode 3.6 / base/tool CROSS AUTOMAKE-QUIRK NO-LIBTOOL-FIX 0
+O -1-------- 115.000 base util-linux 2.18 / base/system CROSS DIETLIBC 0
+O -1-------- 115.000 base uudeview 0.5.20 / base/tool CROSS 0
+O -1-------- 115.600 mail nullmailer 1.11 / extra/server CROSS MTA 0
+O -1-------- 116.100 contrib lesspipe 1.82 / extra/tool CROSS 0
+O -1-------- 116.200 network quagga 0.99.21 / extra/network CROSS 0
+O -1-------- 116.300 editors nano 2.3.1 / extra/text extra/editor CROSS 0
+O -1-------- 116.400 mail mutt 1.5.20 / extra/network CROSS 0
+O -1-------- 116.500 network minicom 2.5 / extra/network CROSS 0
+O -1-------- 116.600 network dhcpcd 5.99.3 / extra/network CROSS AUTOMAKE-QUIRK 0
+O -1-------- 116.700 filesystem zisofs-tools 1.0.8 / extra/filesystem CROSS 0
+O -1-------- 116.800 network uucp 1.07 / extra/network CROSS 0
+O -1-------- 116.900 base lrzsz 0.12.20 / base/tool CROSS 0
+O -1-------- 117.000 base lsof 4.87 / base/tool CROSS 0
+O -1-------- 117.100 textproc libunicode 0.4.gnome / extra/text CROSS AUTOMAKE-QUIRK 0
+O -1-------- 117.300 base popt 1.16 / base/library CROSS FPIC-QUIRK 0
+O -1-------- 117.400 network netkit-base 0.17 / base/system CROSS 0
+O -1-------- 117.600 network libpcap 1.2.1 / base/library CROSS DIETLIBC FPIC-QUIRK 0
+O -1-------- 117.700 network tcpdump 4.3.0 / base/tool CROSS 0
+O -1-------- 117.800 audio workbone 2.4 / extra/multimedia CROSS 0
+O -1-------- 118.000 develop apr 1.4.6 / base/library DIETLIBC CROSS 0
+O -1-------- 118.000 security libassuan 2.0.3 / extra/crypto CROSS FPIC-QUIRK 0
+O -1-------- 118.000 security pcsc-lite 1.54 / extra/crypto CROSS 0
+O -1-------- 118.050 security openct 0.6.20 / extra/security CROSS 0
+O -1-------- 118.100 develop apr-util 1.4.1 / base/library CROSS 0
+O -1-------- 118.100 security ccid 1.54 / extra/tool CROSS 0
+O -1-------- 118.100 security gnupg 1.4.12 / base/tool CROSS 0
+O -1-------- 118.200 network rsync 3.0.9 / extra/network CROSS DIETLIBC 0
+O -1-------- 118.200 security libksba 1.3.0 / extra/crypto CROSS NOPARALLEL 0
+O -1-------- 118.201 security gnupg2 2.0.19 / extra/crypto CROSS 0
+O -1-------- 118.400 www lynx 2.8.7 / extra/network CROSS 0
+O -1-------- 118.500 graphic exiv2 0.21 / extra/multimedia CROSS 0
+O -1-------- 118.800 base mtools 4.0.18 / extra/filesystem CROSS 0
+O 01-------- 119.000 base tcl 8.5.13 / extra/development extra/tool extra/shell CROSS 0
+O -1-------- 119.200 doc rfc 0000 / extra/documentation CROSS 0
+O -1-------- 119.500 base kbd 1.15 / base/system CROSS 0
+O -1-------- 119.600 fonts terminus-font 4.30 / extra/office CROSS 0
+O -1-------- 119.900 graphic transfig 3.2.5 / extra/office CROSS 0
+O -1-------- 120.000 base libhid r362 / base/library NOPARALLEL CROSS 0
+X -1-------- 120.000 database sqlite 3071501 / extra/database CROSS 0
+O 0--------- 120.000 develop cmake 2.8.2 / base/development 0
+O -1-------- 120.000 develop libtasn1 2.9 / extra/development CROSS 0
+O -1-------- 120.000 develop openthreads 1.5.0-200701012325 / base/development CROSS 0
+O -1-------- 120.000 filesystem fam 2.7.0 / extra/filesystem CROSS 0
+O -1-------- 120.000 xorg xbacklight 1.2.0 / base/x11 CROSS 0
+O -1-------- 120.100 audio libsndfile 1.0.23 / extra/multimedia CROSS NOPARALLEL 0
+O -1-------- 120.100 develop intltool 0.40.6 / extra/development CROSS 0
+O -1-------- 120.100 develop newt 0.52.12 / extra/development CROSS NOPARALLEL 0
+O -1-------- 120.200 audio taglib 1.7.2 / extra/multimedia CROSS 0
+O -1-------- 120.300 doc howtos 20071021 / extra/documentation CROSS 0
+O -1-------- 120.400 graphic libungif 4.1.4 / extra/multimedia CROSS 0
+O -1-------- 120.500 xorg xkeyboard-config 2.8 / base/x11 CROSS 0
+O -1-------- 120.700 x11 mkttfontdir 0.1 / extra/tool CROSS 0
+X -1-------- 120.800 base fbset 2.1 / extra/tool CROSS NOPARALLEL 0
+O -1-------- 121.000 dictionary aspell 0.60.6.1 / extra/office CROSS FPIC-QUIRK 0
+O -1-------- 121.000 x11 shared-mime-info 0.90 / base/x11 CROSS NO-AS-NEEDED NOPARALLEL 0
+O -1-------- 121.200 dictionary aspell-de 20030222-1 / extra/office CROSS 0
+O -1-------- 121.400 dictionary aspell-fr 0.50-3 / extra/office CROSS 0
+O -1-------- 121.500 dictionary aspell-es 0.50-2 / extra/office CROSS 0
+O -1-------- 121.600 dictionary aspell-en 7.1-0 / extra/office CROSS 0
+O -1-------- 121.700 multimedia libdvdcss 1.2.10 / extra/filesystem extra/crypto CROSS 0
+O -1-------- 121.800 multimedia dvb-firmware 2005-07-05 / extra/multimedia CROSS 0
+O -1-------- 121.800 multimedia dvbd 0.7.7 / extra/multimedia CROSS 0
+O -1-------- 121.800 multimedia dvbsnoop 1.4.50 / extra/multimedia CROSS 0
+O -1-------- 121.800 multimedia dvbstream 0.5 / extra/multimedia CROSS 0
+O -1-------- 121.800 multimedia libdvb 0.5.5.1 / extra/multimedia CROSS NOPARALLEL 0
+O -1-------- 121.800 multimedia libdvbpsi3 0.1.4 / extra/multimedia CROSS 0
+O -1-------- 121.900 multimedia libdvdread 4.1.3 / extra/filesystem CROSS 0
+O -1-------- 122.000 develop libsigc++ 2.2.11 / extra/development CROSS 0
+O -1-------- 122.100 develop libsigc++12 1.2.5 / extra/development CROSS 0
+X -1-------- 122.200 audio libid3tag 0.15.1b / extra/multimedia CROSS 0
+X -1-------- 122.300 audio libmad 0.15.1b / extra/multimedia CROSS 0
+X -1-------- 122.350 audio madplay 0.15.2b / extra/multimedia CROSS 0
+X -1-------- 122.500 audio libao 1.1.0 / extra/multimedia CROSS 0
+X -1-------- 122.500 audio libogg 1.3.0 / extra/multimedia CROSS 0
+X -1-------- 122.500 audio libvorbis 1.3.2 / extra/multimedia CROSS 0
+O -1-------- 122.500 audio twolame 0.3.13 / extra/multimedia CROSS 0
+O -1-------- 122.600 fonts cheapskatefonts 2003-04-23 / extra/font CROSS 0
+O -1-------- 122.700 audio a52dec 0.7.4 / extra/multimedia CROSS FPIC-QUIRK 0
+O -1-------- 122.800 base libdaemon 0.14 / base/system CROSS 0
+O -1-------- 122.900 printing cups 1.6.1 / extra/server extra/printing PRINTER CROSS 0
+O -1-------- 122.900 printing cups-pdf 2.4.6 / extra/printing CROSS 0
+O -1-------- 123.000 contrib cgilib 0.5 / extra/base CROSS 0
+O -1-------- 123.000 develop sparse 0.4.3 / extra/development CROSS 0
+O -1-------- 123.300 graphic lcms 1.19 / extra/multimedia CROSS 0
+O -1-------- 123.300 graphic libmng 1.0.10 / extra/multimedia CROSS FPIC-QUIRK 0
+O -1-------- 123.400 network ypserv 2.26 / extra/network CROSS 0
+O -1-------- 123.600 network pdnsd 1.2.8 / extra/server CROSS 0
+O -1-------- 124.100 gnome14 gtk+12 1.2.10 / extra/development AUTOMAKE-QUIRK CROSS 0
+O -1-------- 124.200 multimedia id3lib 3.8.3 / extra/multimedia CROSS 0
+O -1-------- 124.300 multimedia libmikmod 3.1.11 / extra/multimedia CROSS AUTOMAKE-QUIRK 0
+O -1-------- 124.400 develop diffstat 1.56 / base/development CROSS 0
+O -1-------- 124.400 develop vbindiff 3.0_beta4 / extra/development CROSS 0
+O -1-------- 124.500 audio alsa-driver 1.0.25 / base/system base/kernel CROSS 0
+O -1-------- 124.600 graphic jasper 1.900.1 / extra/multimedia CROSS FPIC-QUIRK 0
+O -1-------- 124.600 graphic openjpeg 2.0.0 / extra/multimedia CROSS FPIC-QUIRK 0
+X -1-------- 124.800 fonts bitstream-vera-fonts 1.10 / base/x11 CROSS 0
+O -1-------- 124.800 fonts liberation-fonts 3 / base/x11 CROSS 0
+O -1-------- 124.900 base termutils 2.0 / base/tool CROSS DIETLIBC 0
+O -1-------- 124.900 x11 libart 2.3.21 / extra/development CROSS 0
+O -1-------- 125.000 multimedia dvb-apps 2005-02-28 / extra/multimedia CROSS 0
+O -1-------- 125.000 textproc dpsearch 4.46 / extra/documentation CROSS 0
+O -1-------- 125.200 fonts freefonts 0.10 / base/x11 CROSS 0
+O -1-------- 125.300 printing hpijs 2.1.4 / extra/printing CROSS 0
+O -1-------- 125.300 printing magicolor2430dl 1.6.1 / extra/printing CROSS 0
+O -1-------- 125.400 graphic jhead 2.97 / extra/printing CROSS 0
+O -1-------- 125.400 graphic jpeg2ps 1.9 / extra/printing CROSS 0
+O -1-------- 125.400 graphic psutils p17 / extra/printing CROSS 0
+O -1-------- 125.400 graphic tiff2png 0.91 / extra/graphic CROSS 0
+O -1-------- 125.600 develop ctags 5.8 / extra/development CROSS 0
+O -1-------- 125.700 themes blueglass 0.4 / extra/icon CROSS 0
+O -1-------- 125.900 audio xmms 1.2.11 / extra/multimedia CROSS 0
+O -1-------- 126.100 editors zile 2.4.9 / extra/editor CROSS DIETLIBC 0
+O -1-------- 126.200 audio lame 3.99.5 / extra/multimedia CROSS 0
+O -1-------- 126.300 multimedia libmpeg 1.3.1 / extra/multimedia CROSS NOPARALLEL 0
+O -1-------- 126.400 audio faac 1.28 / extra/multimedia CROSS 0
+X -1-------- 126.400 audio faad 2.7 / extra/multimedia CROSS 0
+O -1-------- 126.400 audio flac 1.2.1 / extra/multimedia CROSS 0
+O -1-------- 126.400 audio mac 3.99-u4-b5 / extra/multimedia CROSS 0
+O -1-------- 126.400 audio speex 1.2rc1 / extra/multimedia CROSS NOPARALLEL 0
+X -1-------- 126.480 x11 cairo 1.12.14 / extra/x11 CROSS 0
+X -1-------- 126.500 audio vorbis-tools 1.4.0 / extra/multimedia CROSS 0
+O -1-------- 126.600 x11 imlib 1.9.15 / extra/multimedia CROSS 0
+O -1-------- 126.650 gnome2 gtkdoc 1.14 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 126.700 gnome2 gstreamer 1.0.5 / extra/multimedia extra/desktop/gnome CROSS 0
+O -1-------- 126.800 develop valgrind 3.8.1 / extra/development CROSS NO-SSP 0
+O -1-------- 126.900 develop libowfat 0.29 / extra/development CROSS DIETLIBC 0
+O -1-------- 127.000 base minit 0.10 / base/system CROSS DIETLIBC INIT 0
+O -1-------- 127.000 qt qt-embedded 4.4.3 / extra/development CROSS 0
+O -1-------- 127.000 qt qtcore 4.3.0 / extra/development CROSS 0
+X -1-------- 127.000 x11 libpixman 0.1.6 / extra/x11 CROSS 0
+O -1-------- 127.040 x11 cairomm 1.10.0 / extra/x11 CROSS 0
+O -1-------- 127.300 base gpm 1.20.6 / base/system CROSS NOPARALLEL FPIC-QUIRK 0
+O -1-------- 127.300 base mouseemu 0.16 / base/system CROSS 0
+O -1-------- 127.300 x11 harfbuzz 0.9.12 / extra/x11 CROSS 0
+X -1-------- 127.400 gnome2 pango 1.32.5 / extra/text CROSS 0
+O -1-------- 127.401 contrib rrdtool 1.4.7 / extra/base CROSS FPIC-QUIRK 0
+X -1-------- 127.500 gnome2 atk 2.6.0 / extra/development CROSS 0
+O -1-------- 127.600 gnome2 gdk-pixbuf 2.26.5 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 127.600 network mtr 0.83 / extra/network CROSS 0
+X -1-------- 127.700 gnome2 gtk+ 2.24.15 / extra/development CROSS 0
+O -1-------- 127.750 graphic poppler 0.22.0 / extra/development CROSS 0
+O -1-------- 127.800 editors geany 0.19 / extra/development CROSS 0
+O -1-------- 127.900 gnome2 json-glib 0.12.6 / extra/development CROSS 0
+O -1-------- 127.900 graphic aalib 1.4rc5 / base/library CROSS 0
+O -1-------- 128.000 gnome2 clutter 1.6.20 / extra/development CROSS 0
+O -1-------- 128.000 x11 rosetta 2007-10-02 / extra/multimedia CROSS 0
+O -1-------- 128.100 gnome2 clutter-gtk 0.10.6 / extra/development CROSS 0
+O -1-------- 128.200 x11 xdialog 2.3.1 / extra/development base/x11 CROSS 0
+O -1-------- 128.400 emulators hercules 3.05 / extra/emulator extra/development CROSS 0
+O -1-------- 128.600 x11 gatos-km 2004-01-07 / base/kernel CROSS 0
+O -1-------- 128.700 archiver xdelta3 30p / extra/development CROSS 0
+O -1-------- 128.750 network mdnsresponder 108.6 / extra/network NOPARALLEL CROSS 0
+O -1-------- 129.000 security cracklib 2.8.22 / base/library CROSS 0
+O -1-------- 129.400 x11 aterm 1.0.1 / extra/shell CROSS 0
+O -1-------- 129.600 filesystem hfsplusutils 332.14 / extra/filesystem CROSS 0
+O -1-------- 129.600 filesystem hfsutils 3.2.6 / extra/filesystem CROSS 0
+O -1-------- 129.700 gnome2 linc 1.1.1 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 130.000 base pam 1.1.4 / base/library CROSS NOPARALLEL 0
+O -1-------- 130.000 graphic libsdl 1.2.15 / base/x11 CROSS 0
+O -1-------- 130.100 security pinentry 0.7.5 / extra/tool CROSS 0
+O -1-------- 130.200 base elf 0.5.4p1 / extra/base CROSS 0
+O -1-------- 130.400 network ifstat 1.1 / extra/base CROSS 0
+O -1-------- 130.400 network iptraf 3.0.1 / extra/base CROSS 0
+O -1-------- 130.400 network wget 1.13 / extra/network CROSS DIETLIBC 0
+O -1-------- 130.500 network samba 3.6.9 / extra/server CROSS 0
+O -1-------- 130.600 develop libmhash 0.9.9.9 / base/tool CROSS 0
+O -1-------- 130.700 audio alsa-tools 1.0.25 / base/system base/kernel AUTOMAKE-QUIRK CROSS 0
+O -1-------- 130.900 perl snmpsession 1.00 / extra/base CROSS 0
+O -1-------- 131.000 base xinetd 2.3.15 / base/system CROSS 0
+O -1-------- 131.000 develop libgdiplus 2.10 / base/library CROSS 0
+O -1-------- 131.200 mail metamail 2.7 / extra/base CROSS 0
+O -1-------- 131.500 network rarpd ap1 / extra/network CROSS 0
+O -1-------- 132.200 graphic pspresent 1.3 / extra/office CROSS 0
+O -1-------- 132.300 database sqlite2 2.8.17 / extra/database CROSS 0
+O -1-------- 132.400 develop mono 2.10.2 / extra/development NOPARALLEL CROSS 0
+O -1-------- 132.500 multimedia dvbstreamer 1.1 / extra/multimedia CROSS 0
+O -1-------- 132.560 graphic libexif-gtk 0.3.5 / extra/multimedia CROSS 0
+O -1-------- 132.800 graphic a2ps 4.13b / extra/printing CROSS AUTOMAKE-QUIRK 0
+O -1-------- 132.900 emulators lcdemu 0.6.0 / extra/emulator CROSS 0
+O -1-------- 133.400 network chrony 1.26 / extra/network CROSS 0
+O -1-------- 133.800 base id-utils 4.5 / base/tool CROSS 0
+O -1-------- 133.900 graphic imagemagick 6.7.9-6 / extra/multimedia CROSS 0
+X -1-------- 134.200 x11 xterm 290 / extra/shell CROSS 0
+O -1-------- 134.200 x11 xv 3.10a / extra/multimedia CROSS 0
+O -1-------- 134.300 base pinfo 0.6.8 / extra/tool CROSS 0
+O -1-------- 134.500 x11 rxvt-unicode 9.16 / extra/shell CROSS 0
+O -1-------- 134.600 network fastcgi 2.4.0 / extra/network CROSS NOPARALLEL 0
+O -1-------- 134.700 x11 blackbox 0.70.1 / extra/windowmanager CROSS 0
+O -1-------- 134.900 scientific ploticus 241 / extra/tool CROSS 0
+O -1-------- 135.400 security srm 1.2.10 / extra/security CROSS 0
+O -1-------- 135.600 graphic libstroke 0.5.1fvwm / extra/multimedia CROSS 0
+O -1-------- 135.700 graphic hermes 1.3.3 / extra/multimedia CROSS 0
+O -1-------- 135.900 e17 imlib2 1.4.5 / extra/multimedia CROSS NOPARALLEL 0
+O -1-------- 135.900 x11 transset 2005-04-01 / extra/multimedia CROSS 0
+O -1-------- 135.900 x11 xcompmgr 1.1.6 / extra/multimedia CROSS 0
+O -1-------- 136.000 e17 edb r41533 / extra/desktop/enlightenment extra/database CROSS 0
+O -1-------- 136.050 e17 eina 1.2.1 / extra/desktop/enlightenment extra/multimedia CROSS 0
+O -1-------- 136.100 e17 eet 1.6.1 / extra/desktop/enlightenment extra/database CROSS 0
+O -1-------- 136.500 filesystem fuse 2.9.0 / extra/filesystem CROSS 0
+O -1-------- 136.500 filesystem ntfs-3g 2010.8.8 / extra/filesystem CROSS 0
+O -1-------- 136.500 filesystem physfs 2.0.2 / extra/filesystem CROSS 0
+O -1-------- 136.600 graphic gocr 0.48 / extra/graphic CROSS 0
+O -1-------- 136.600 graphic ocrad 0.20 / extra/graphic CROSS 0
+X -1-------- 136.700 audio gsm 1.0.13 / extra/multimedia FPIC-QUIRK CROSS 0
+O -1-------- 136.900 gnome2 librsvg 2.26.3 / extra/multimedia CROSS 0
+O -1-------- 136.900 network bluez 4.101 / extra/tool CROSS 0
+O -1-------- 137.000 base inotify-tools 3.13 / base/system CROSS 0
+O -1-------- 137.000 base input-utils 2005-05-15 / base/system CROSS 0
+O -1-------- 137.000 e17 evas 1.2.1 / extra/desktop/enlightenment extra/multimedia FPIC-QUIRK CROSS 0
+X -1-------- 137.100 network openobex 1.5 / extra/filesystem CROSS 0
+O -1-------- 137.200 filesystem libnetmd 20060701 / extra/filesystem CROSS 0
+O -1-------- 137.500 e17 eeze 1.0.2 / extra/desktop/enlightenment extra/database CROSS 0
+O -1-------- 137.700 e17 epeg r41533 / extra/desktop/enlightenment extra/database CROSS 0
+O -1-------- 137.900 e17 embryo 1.0.0.beta3 / extra/desktop/enlightenment extra/development CROSS 0
+O -1-------- 138.100 textproc libxml1 1.8.17 / base/library CROSS NOPARALLEL AUTOMAKE-QUIRK 0
+O -1-------- 138.200 network neon 0.29.6 / base/library CROSS FPIC-QUIRK DIETLIBC 0
+O -1-------- 138.800 base libcap 1.10 / base/library CROSS 0
+O -1-------- 139.000 network aoetools 35 / extra/network CROSS 0
+O -1-------- 139.000 network vblade 20 / extra/network CROSS 0
+O -1-------- 139.200 gnome2 gtk-engines 2.16.1 / extra/theme extra/desktop/gnome CROSS 0
+X 01-------- 139.300 gnome2 libidl 0.8.14 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 139.800 gnome2 libgtop 2.28.4 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 139.900 gnome2 glibmm 2.24.2 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 140.000 audio libgpod 0.7.2 / extra/multimedia CROSS 0
+O 01-------- 140.000 gnome2 orbit2 2.14.19 / extra/development extra/desktop/gnome CROSS NOPARALLEL 0
+O -1-------- 140.000 gnome2 pangomm 2.26.3 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 140.000 textproc onig 5.9.0 / extra/tool CROSS 0
+O -1-------- 140.200 gnome14 libghttp10 1.0.9 / extra/development extra/desktop/gnome CROSS AUTOMAKE-QUIRK 0
+O -1-------- 140.300 gnome2 libglade 2.6.4 / extra/development extra/desktop/gnome CROSS 0
+O 01-------- 140.400 develop commonc++ 1.8.1 / extra/development CROSS 0
+O -1-------- 140.600 gnome2 gconf 2.28.1 / extra/development extra/configuration extra/desktop/gnome CROSS NOPARALLEL 0
+O -1-------- 141.000 gnome2 gtkmm 2.20.3 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 141.700 multimedia libsimage 1.7.0 / extra/multimedia CROSS 0
+O -1-------- 142.000 gnome2 libbonobo 2.32.1 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 142.100 gnome2 gnome-keyring 2.30.3 / extra/development extra/base extra/desktop/gnome CROSS 0
+O -1-------- 142.100 multimedia gpac 0.5.0 / extra/multimedia CROSS NOPARALLEL 0
+O -1-------- 142.200 gnome2 libgnome-keyring 2.30.1 / extra/development extra/base extra/desktop/gnome CROSS 0
+O -1-------- 142.200 gnome2 startup-notification 0.12 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 142.200 multimedia libvpx 0.9.6 / extra/multimedia CROSS 0
+O -1-------- 142.200 multimedia x264 20120920-2245-stable / extra/multimedia CROSS FPIC-QUIRK 0
+O -1-------- 142.395 gnome2 gnome-mime-data 2.18.0 / extra/base extra/desktop/gnome CROSS 0
+O -1-------- 142.400 gnome2 gnome-vfs 2.24.4 / extra/development extra/filesystem extra/desktop/gnome CROSS 0
+O -1-------- 142.500 multimedia libtheora 1.1.1 / extra/multimedia CROSS 0
+O -1-------- 142.500 multimedia opencore-amr 0.1.3 / extra/network CROSS 0
+X -1-------- 142.500 multimedia xvid 1.2.2 / extra/multimedia CROSS 0
+O -1-------- 142.600 gnome2 gnome-vfs-moniker 2.15.3 / extra/development extra/filesystem extra/desktop/gnome CROSS 0
+X -1-------- 142.600 multimedia ffmpeg 1.0.4 / extra/multimedia CROSS FPIC-QUIRK 0
+O -1-------- 142.800 gnome2 libgnomecanvas 2.30.3 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 142.800 printing foo2zjs 2006-01-10 / extra/printing CROSS 0
+O -1-------- 142.800 printing foomatic-db 3.0-20090114 / extra/printing CROSS 0
+O -1-------- 142.900 graphic enscript 1.6.6 / extra/printing CROSS 0
+O -1-------- 143.100 audio jack 0.109.2 / extra/multimedia CROSS 0
+O -1-------- 143.200 audio portaudio v19_20071207 / extra/multimedia CROSS 0
+O -1-------- 143.400 x11 tuxcursor 0.4 / extra/icon CROSS 0
+O -1-------- 143.500 gnome2 libgnome 2.30.0 / extra/development extra/base extra/desktop/gnome CROSS 0
+O -1-------- 143.600 gnome2 libbonoboui 2.24.5 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 144.000 develop libevent 1.3e / extra/development CROSS 0
+O -1-------- 144.100 gnome2 at-spi 1.26.0 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 144.200 gnome2 gnome-mag 0.16.3 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 144.400 gnome2 libgnomeui 2.24.5 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 144.500 develop avrdude 5.11.1 / extra/development CROSS NOPARALLEL 0
+O -1-------- 144.610 network curlpp 0.7.2 / base/tool CROSS 0
+O -1-------- 144.700 gnome2 icon-naming-utils 0.8.90 / extra/icon extra/desktop/gnome CROSS 0
+O -1-------- 144.700 x11 hicolor-icon-theme 0.5 / extra/icon CROSS 0
+O -1-------- 144.800 gnome2 gnome-icon-theme 2.30.3 / extra/icon extra/desktop/gnome CROSS 0
+O -1-------- 144.800 gnome2 libgnomecups 0.2.3 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 144.900 gnome2 libgnomeprint 2.18.8 / extra/development extra/printing extra/desktop/gnome CROSS 0
+O -1-------- 145.000 gnome2 gnome-menus 2.30.5 / extra/desktop/gnome CROSS 0
+O -1-------- 145.000 graphic libopenraw 0.0.8 / extra/graphic CROSS 0
+O -1-------- 145.200 gnome2 libzvt 2.0.1 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 145.300 gnome2 vte 0.28.2 / extra/development extra/shell extra/desktop/gnome CROSS 0
+O -1-------- 145.500 develop oprofile 0.9.7 / base/system CROSS 0
+O -1-------- 145.700 gnome2 libwnck 2.30.7 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 146.000 graphic libsdl_pango 0.1.2 / extra/development CROSS 0
+O -1-------- 146.300 base acdctl 1.1 / extra/tool CROSS 0
+O -1-------- 146.300 x11 xosd 2.2.12 / extra/development CROSS 0
+O -1-------- 146.300 x11 xvattr 1.3 / extra/tool CROSS 0
+O -1-------- 146.500 audio alsaplayer 0.99.81 / extra/multimedia extra/desktop/gnome CROSS 0
+O -1-------- 146.800 develop cwiid 0.6.00 / extra/development CROSS 0
+O -1-------- 146.900 gnome2 libgtkhtml 2.11.1 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 147.301 gnome2 gnome-doc-utils 0.19.5 / extra/desktop/gnome CROSS 0
+O -1-------- 147.309 gnome2 gnome-common 2.28.0 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 147.310 gnome2 gconf-editor 2.30.0 / extra/configuration extra/desktop/gnome CROSS 0
+O -1-------- 147.400 gnome2 gconfmm 2.28.3 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 147.500 textproc fribidi 0.19.2 / base/library CROSS 0
+O -1-------- 147.700 gnome2 libcroco 0.6.3 / extra/security extra/development extra/desktop/gnome CROSS 0
+O -1-------- 147.800 text2speech rsynth 2.0 / extra/multimedia CROSS 0
+O -1-------- 147.900 gnome2 libglademm 2.6.7 / extra/desktop/gnome CROSS 0
+O -1-------- 148.000 audio libmusicbrainz 2.1.5 / extra/multimedia CROSS 0
+O -1-------- 148.600 audio mpg123 1.14.4 / extra/multimedia CROSS 0
+X -1-------- 148.601 audio mpg321 0.3.1 / extra/multimedia CROSS 0
+O -1-------- 148.900 gnome2 libgnomecanvasmm 2.23.1 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 149.000 base usbutils 6 / base/system CROSS AUTOMAKE-QUIRK 0
+O -1-------- 149.300 gnome2 libgsf 1.14.21 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 149.499 gnome2 libsoup 2.30.2 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 149.500 gnome2 alacarte 0.11.10 / extra/base extra/desktop/gnome CROSS 0
+O -1-------- 149.500 gnome2 gnome-backgrounds 2.30.0 / extra/base extra/desktop/gnome CROSS 0
+X -1-------- 149.800 lua lua 5.2.0 / extra/development CROSS DIETLIBC FPIC-QUIRK 0
+O -1-------- 149.800 lua luajit 2.0.0 / extra/development CROSS DIETLIBC 0
+O -1-------- 149.800 lua slncrypto 1.1 / extra/security CROSS 0
+O -1-------- 149.900 base pciutils 3.1.10 / base/system FPIC-QUIRK CROSS 0
+O -1-------- 149.900 fonts john-stracke-fonts 2 / extra/multimedia CROSS 0
+O -1-------- 150.000 develop liboil 0.3.17 / extra/development CROSS NOPARALLEL 0
+O -1-------- 150.000 network asterisk 1.4.24 / extra/network CROSS NOPARALLEL 0
+O -1-------- 150.000 network lighttpd 1.4.29 / extra/server CROSS 0
+O -1-------- 150.000 network pump 0.8.24 / extra/network CROSS 0
+O -1-------- 150.000 textproc htmldoc 1.8.26 / extra/tool CROSS 0
+O -1-------- 150.000 textproc iso-codes 3.11.1 / extra/tool CROSS 0
+O -1-------- 150.000 textproc xmlstarlet 1.4.2 / extra/tool CROSS 0
+O -1-------- 150.100 filesystem cdrkit 1.1.11 / extra/filesystem CROSS 0
+O -1-------- 150.300 mail libesmtp 1.0.6 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 150.400 gnome2 figment 0.3.5 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 150.600 gnome2 firestarter 1.0.3 / extra/configuration extra/desktop/gnome CROSS 0
+O -1-------- 151.000 fonts tex-ttf 0.3 / extra/office CROSS 0
+O -1-------- 151.400 gnome2 libole 2.2.8 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 151.700 gnome2 gnome-spell 1.0.8 / extra/tool extra/office extra/desktop/gnome CROSS 0
+O -1-------- 152.000 gnome2 libxklavier 5.0 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 152.300 audio aumix 2.9 / extra/multimedia CROSS 0
+O -1-------- 152.600 develop libnotify 0.4.5 / extra/development CROSS 0
+X -1-------- 152.600 network wireless-tools 29 / base/system CROSS 0
+O -1-------- 152.800 gnome2 gtksourceview 2.10.5 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 153.100 gnome2 gob 2.0.19 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 153.150 gnome2 gst-plugins-base 0.10.35 / extra/multimedia extra/desktop/gnome CROSS 0
+O -1-------- 153.200 gnome2 gdl 2.30.1 / extra/development extra/desktop/gnome CROSS 0
+O -1-------- 153.200 gnome2 gnome-build 2.24.1 / extra/development extra/desktop/gnome CROSS NOPARALLEL 0
+O -1-------- 153.200 www webkit r70732 / base/system CROSS 0
+O -1-------- 153.400 gnome2 pkgview 1.0.6 / extra/development extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 153.600 gnome2 gtkhtml 3.30.3 / extra/development CROSS 0
+O -1-------- 153.700 gnome2 spheres-and-crystals 0.7 / extra/theme extra/desktop/gnome CROSS 0
+O -1-------- 153.900 gnome2 gnomesu 0.3.1 / extra/editor extra/desktop/gnome CROSS 0
+O -1-------- 153.901 gnome2 gtkspell 2.0.14 / extra/development CROSS 0
+O -1-------- 154.500 shells mc-mp 4.1.40-pre9 / extra/shell CROSS 0
+O -1-------- 155.300 gnome2 devilspie 0.22 / extra/tool extra/windowmanager extra/desktop/gnome CROSS 0
+O -1-------- 156.199 gnome2 libgksu 2.0.12 / extra/tool extra/security extra/login CROSS 0
+O -1-------- 156.300 gnome2 gnome2-user-docs 2.8.1 / extra/desktop/gnome CROSS 0
+O -1-------- 156.400 graphic cthumb 4.2 / extra/multimedia CROSS 0
+O -1-------- 156.550 gnome2 desktop-file-utils 0.15 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 156.700 multimedia libdv 1.0.0 / extra/multimedia CROSS 0
+O -1-------- 156.900 base libraw1394 2.1.0 / extra/multimedia CROSS NOPARALLEL NO-LIBTOOL-FIX 0
+O -1-------- 157.200 multimedia mpgtx 1.3.1 / extra/multimedia CROSS 0
+O -1-------- 157.300 gnome2 gnome-themes 2.30.2 / extra/desktop/gnome CROSS 0
+O -1-------- 157.300 themes murrine 0.53.1 / extra/desktop/gnome CROSS 0
+O -1-------- 157.300 themes murrine-configurator 0.5 / extra/desktop/gnome CROSS 0
+O -1-------- 157.800 office libwpd 0.8.14 / base/library CROSS 0
+O -1-------- 158.100 shells mc 4.7.4 / extra/shell CROSS 0
+O -1-------- 158.500 gnome2 gnet1 1.1.9 / extra/network extra/desktop/gnome CROSS 0
+O -1-------- 158.800 gnome2 gworldclock 1.4.4 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 158.800 textproc opensp 1.5.2 / extra/documentation CROSS NO-AS-NEEDED 0
+O -1-------- 159.500 filesystem xcdroast 0.98alpha15 / extra/filesystem CROSS 0
+O -1-------- 159.800 gnome2 gkrellm 2.3.4 / extra/tool CROSS 0
+O -1-------- 159.900 gnome2 xchat 2.8.8 / extra/network CROSS 0
+O -1-------- 160.100 audio mp3info 0.8.5a / extra/multimedia CROSS 0
+O -1-------- 160.100 graphic barcode 0.98 / extra/graphic CROSS 0
+O -1-------- 160.500 graphic gqview 2.0.4 / extra/multimedia CROSS 0
+O -1-------- 160.700 graphic libptp 1.1.10 / base/library CROSS NOPARALLEL 0
+O -1-------- 160.900 security libmcrypt 2.5.8 / base/library CROSS 0
+O -1-------- 161.000 multimedia libdvdplay 1.0.1 / extra/crypto CROSS 0
+O -1-------- 162.000 archiver unrar 4.2.4 / base/tool CROSS 0
+O -1-------- 162.100 gnustep gnustep-make 2.4.0 / extra/windowmanager CROSS 0
+O -1-------- 162.200 develop ffcall 1.10 / extra/windowmanager CROSS NOPARALLEL 0
+O -1-------- 162.242 gnome2 gst-plugins-ugly 0.10.18 / extra/multimedia extra/desktop/gnome CROSS 0
+O -1-------- 162.900 gnome2 gnokii 0.6.30 / extra/network CROSS NOPARALLEL 0
+O -1-------- 163.400 network bridge-utils 1.5 / extra/network CROSS 0
+X -1-------- 163.500 base busybox 1.20.2 / base/system CROSS INIT PRINTER 0
+O -1-------- 163.501 base tinylogin 1.4 / base/system CROSS 0
+O -1-------- 163.600 network ifenslave 1.1.0 / extra/network CROSS 0
+O -1-------- 163.700 base pcmciautils 017 / base/system base/kernel CROSS NOPARALLEL 0
+O -1-------- 163.900 gnome2 bluez-gnome 1.8 / extra/tool CROSS 0
+O -1-------- 164.000 network howl 1.0.0 / extra/network CROSS 0
+O -1-------- 164.000 network libupnp 1.6.18 / extra/network CROSS 0
+O -1-------- 164.000 network vlan 1.9 / extra/network CROSS DIETLIBC 0
+O -1-------- 164.200 network bluez-firmware 1.2 / extra/tool CROSS 0
+O -1-------- 164.300 network bluez-hcidump 1.42 / extra/tool CROSS 0
+O -1-------- 164.400 network bluez-hciemu 1.2 / extra/tool CROSS 0
+O -1-------- 164.900 x11 wmbatteries 0.1.3 / extra/tool CROSS 0
+O -1-------- 164.900 x11 wmcpuload 1.0.1 / extra/tool CROSS 0
+O -1-------- 164.900 x11 wmdiskmon 0.0.2 / extra/tool CROSS CROSS 0
+O -1-------- 164.900 x11 wmmemmon 1.0.1 / extra/tool CROSS 0
+O -1-------- 165.000 filesystem dvhtool 1.0.1 / base/boot CROSS 0
+O -1-------- 165.200 x11 fluxbox 1.3.5 / extra/windowmanager CROSS 0
+O -1-------- 165.200 x11 openbox 3.4.11.2 / extra/windowmanager CROSS 0
+O -1-------- 165.400 x11 afterstep 2.2.11 / extra/windowmanager CROSS 0
+O -1-------- 166.600 graphic sane-backends 1.0.23 / base/library CROSS 0
+O -1-------- 166.750 audio openal 1.11.753 / extra/multimedia CROSS 0
+O -1-------- 166.751 audio freealut 1.1.0 / extra/multimedia CROSS 0
+O -1-------- 167.600 filesystem dvd+rwtools 7.1 / extra/multimedia CROSS 0
+O -1-------- 167.800 audio libsamplerate 0.1.6 / extra/multimedia CROSS 0
+O -1-------- 168.500 themes crystal-icons-gnome 1.2 / extra/theme extra/desktop/gnome CROSS 0
+O -1-------- 168.600 themes noia-icons-gnome 1.0 / extra/theme extra/desktop/gnome CROSS 0
+O -1-------- 168.900 audio bacterium 0.2.100 / extra/multimedia CROSS 0
+O -1-------- 169.100 audio galan 0.3.0beta7 / extra/multimedia CROSS 0
+O -1-------- 169.300 x11 libdockapp 0.6.2 / extra/windowmanager CROSS 0
+O -1-------- 169.400 x11 wmnetload 1.3 / extra/tool CROSS 0
+O -1-------- 169.500 gnome2 gnome-system-monitor 2.28.2 / extra/tool extra/desktop/gnome CROSS 0
+O -1-------- 169.700 database tdb 1.2.1 / extra/database CROSS 0
+O -1-------- 169.800 network ddclient 3.8.1 / extra/network CROSS 0
+O -1-------- 169.900 audio sweep 0.9.3 / extra/multimedia CROSS 0
+O -1-------- 170.000 security aircrack-ng 1.1 / extra/tool CROSS 0
+O -1-------- 170.500 x11 gatos-ati-remote 2004-01-07 / base/kernel CROSS 0
+O -1-------- 170.800 multimedia libzvbi 0.2.33 / extra/multimedia CROSS 0
+O -1-------- 171.000 multimedia lsdvd 0.16 / extra/multimedia CROSS 0
+O -1-------- 171.100 multimedia tvtime 1.0.2 / extra/multimedia CROSS 0
+O -1-------- 171.200 network nload 0.7.4 / extra/network CROSS 0
+O -1-------- 171.500 multimedia libcss 0.1.0 / extra/filesystem extra/crypto CROSS AUTOMAKE-QUIRK 0
+O -1-------- 171.600 audio bladeenc 0.94.2 / extra/multimedia CROSS 0
+O -1-------- 171.800 x11 rxvt 2.7.10 / extra/shell CROSS 0
+O -1-------- 172.300 games aop 0.6 / extra/game CROSS 0
+O -1-------- 172.500 emulators simh 36-1 / extra/emulator CROSS 0
+O -1-------- 172.700 develop motor 3.4.0 / extra/development CROSS 0
+O -1-------- 172.800 editors ne 2.5 / extra/editor CROSS NOPARALLEL 0
+O -1-------- 172.900 network ppp 2.4.5 / extra/network CROSS 0
+O -1-------- 173.000 network pptp-linux 1.7.2 / extra/network CROSS 0
+O -1-------- 173.100 textproc latex2html 2008 / extra/office CROSS 0
+O -1-------- 173.200 audio umix 1.0.2 / extra/multimedia CROSS 0
+O -1-------- 173.400 emulators vice 2.2 / extra/emulator CROSS 0
+O -1-------- 173.500 gnome2 dia 0.96.1 / extra/office extra/desktop/gnome CROSS 0
+O -1-------- 173.500 mail libetpan 1.1 / extra/office CROSS 0
+O -1-------- 174.100 base sudo 1.8.6 / extra/shell CROSS 0
+O -1-------- 174.200 editors hexedit 1.2.10 / extra/editor CROSS 0
+O -1-------- 175.300 develop daemon 0.6.3 / extra/server CROSS 0
+O -1-------- 175.800 scientific fftw 2.1.5 / extra/scientific CROSS FPIC-QUIRK 0
+O -1-------- 175.900 scientific fftw3 3.3.3 / extra/scientific CROSS FPIC-QUIRK 0
+O -1-------- 176.100 security cyberjack 3.3.3 / extra/crypto CROSS NOPARALLEL 0
+O -1-------- 176.100 security towitoko 2.0.7 / extra/crypto CROSS 0
+O -1-------- 176.400 mail fetchmail 6.3.23 / extra/office CROSS NOPARALLEL NO-AS-NEEDED AUTOMAKE-QUIRK 0
+O -1-------- 176.500 office libofx 0.9.1 / extra/tool extra/office extra/development CROSS 0
+O -1-------- 176.500 security libchipcard1 0.9.1 / extra/development CROSS 0
+O -1-------- 176.700 x11 windowmaker 0.95.2 / extra/windowmanager CROSS NOPARALLEL 0
+O -1-------- 177.000 emulators bochs 2.6 / extra/emulator CROSS 0
+O -1-------- 177.800 graphic xpdf 3.02pl4 / extra/office CROSS 0
+O -1-------- 178.000 network silc-toolkit 1.1.10 / extra/network CROSS 0
+O -1-------- 178.100 php php 5.3.14 / extra/development CROSS 0
+O -1-------- 178.100 php php4 4.4.9 / extra/development CROSS 0
+O -1-------- 178.300 x11 bbkeys 0.9.1 / extra/windowmanager CROSS 0
+O -1-------- 178.500 base libol 0.3.18 / extra/development CROSS 0
+O -1-------- 178.900 security apg 2.2.3 / extra/security extra/tool CROSS 0
+X -1-------- 179.000 base sysvinit 2.88 / base/system CROSS DIETLIBC INIT 0
+O -1-------- 179.000 xorg xdm 1.1.11 / base/x11 CROSS 0
+O -1-------- 179.100 base shadow 4.1.4.3 / base/system CROSS 0
+X -1-------- 179.199 filesystem e2fsprogs 1.42.7 / base/system extra/filesystem CROSS DIETLIBC FPIC-QUIRK 0
+O -1-------- 179.200 base pwdutils 3.1.3 / base/system CROSS 0
+O -1-------- 179.200 x86 acpica 20110922 / extra/tool CROSS NOPARALLEL 0
+O -1-------- 179.400 gnome2 gucharmap 2.30.3 / extra/desktop/gnome extra/text CROSS 0
+O -1-------- 179.500 audio bio2jack 0.9 / extra/multimedia CROSS 0
+O -1-------- 179.500 multimedia libavc1394 0.5.4 / extra/multimedia CROSS 0
+O -1-------- 179.500 multimedia libdc1394 2.2.0 / extra/multimedia CROSS 0
+X -1-------- 179.600 multimedia mplayer 1.0rc4 / extra/multimedia CROSS 0
+O -1-------- 179.700 fonts mplayer-fonts 1.0.3 / extra/multimedia CROSS 0
+O -1-------- 179.800 base hdparm 9.43 / base/system CROSS DIETLIBC 0
+O -1-------- 179.800 base lsscsi 0.19 / base/system CROSS DIETLIBC 0
+O -1-------- 179.800 base memtester 4.3.0 / base/system CROSS 0
+O -1-------- 179.800 base sdparm 1.07 / base/system CROSS DIETLIBC 0
+O -1-------- 180.000 audio pulseaudio 0.9.18 / extra/multimedia CROSS 0
+O -1-------- 180.000 audio spandsp 0.0.6pre21 / extra/multimedia CROSS 0
+O -1-------- 180.000 base conspy 1.8 / base/tool CROSS 0
+O -1-------- 180.000 base eject 2.1.0 / extra/tool CROSS 0
+O -1-------- 180.000 base screen 4.0.3 / base/tool CROSS 0
+O -1-------- 180.000 network argus 3.0.6 / extra/network CROSS 0
+O -1-------- 180.000 www uriparser 0.7.7 / extra/network CROSS 0
+O -1-------- 180.100 develop libdnsres 0.1a / extra/network CROSS NOPARALLEL FPIC-QUIRK 0
+O -1-------- 180.300 filesystem dosfstools 3.0.14 / base/system extra/filesystem CROSS DIETLIBC 0
+O -1-------- 181.000 develop libnfsidmap 0.25 / extra/network CROSS 0
+O -1-------- 181.300 audio ladspa-swh-plugins 0.4.14 / extra/multimedia CROSS 0
+O -1-------- 181.400 audio ladspa-vcf 0.0.5 / extra/multimedia CROSS 0
+O -1-------- 181.600 audio ladspa-vlevel 0.5 / extra/multimedia CROSS 0
+O -1-------- 182.300 audio liblo 0.26 / extra/multimedia CROSS 0
+O -1-------- 182.600 audio ladspa-njl 0.2.1 / extra/multimedia CROSS 0
+O -1-------- 182.600 audio ladspa-tap 0.7.2 / extra/multimedia CROSS 0
+O -1-------- 183.100 themes neutral 1.13a / extra/theme CROSS 0
+O -1-------- 183.300 base lcap 0.0.6 / base/system CROSS 0
+O -1-------- 183.500 filesystem reiser4progs 1.0.7 / base/system extra/filesystem CROSS 0
+O -1-------- 183.500 filesystem reiserfsprogs 3.6.21 / base/system extra/filesystem CROSS 0
+O -1-------- 183.500 filesystem udftools 1.0.0b3 / base/system extra/filesystem CROSS 0
+O -1-------- 183.600 filesystem jfsutils 1.1.14 / extra/filesystem CROSS 0
+O -1-------- 183.600 gnome2 gnome-media 2.30.0 / extra/multimedia extra/desktop/gnome CROSS NOPARALLEL 0
+O -1-------- 183.700 filesystem aufs2 2009-11-08 / extra/filesystem CROSS 0
+O -1-------- 183.700 filesystem aufs2-util 2009-09-17 / extra/filesystem CROSS 0
+O -1-------- 183.700 filesystem nilfs-utils 2.0.18 / extra/filesystem CROSS 0
+O -1-------- 183.700 filesystem xfsprogs 3.1.10 / extra/filesystem CROSS 0
+O -1-------- 183.900 filesystem genromfs 0.5.1 / base/system extra/filesystem CROSS 0
+X -1-------- 183.900 filesystem mtd-tools 1.5.0 / extra/filesystem CROSS NOPARALLEL 0
+O -1-------- 184.000 filesystem lvm2 2.02.98 / extra/filesystem CROSS 0
+O -1-------- 184.400 network ethtool 3.7 / base/system CROSS 0
+O -1-------- 184.500 network net-tools 1.60 / base/system CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 184.600 base htop 1.0.2 / extra/tool CROSS 0
+O -1-------- 184.600 network plptools 1.0.11 / base/system CROSS 0
+O -1-------- 184.700 base hddtemp 0.3-beta15 / extra/tool CROSS 0
+O -1-------- 184.700 base smartmontools 6.0 / extra/tool CROSS 0
+O -1-------- 184.800 develop swig 2.0.9 / extra/development CROSS 0
+O -1-------- 184.800 multimedia libfame 0.9.1 / extra/multimedia CROSS AUTOMAKE-QUIRK 0
+O -1-------- 185.400 base procinfo 18 / base/tool CROSS 0
+X -1-------- 185.600 base procps 3.2.8 / base/tool CROSS 0
+X -1-------- 185.700 base psmisc 22.20 / base/tool CROSS DIETLIBC 0
+O -1-------- 186.000 multimedia smpeg 2003-05-09 / extra/development CROSS 0
+O -1-------- 186.200 base ksymoops 2.4.11 / base/kernel CROSS 0
+O -1-------- 186.600 firmware adaptec-usbxchange 0 / base/system CROSS 0
+O -1-------- 186.700 network ipsec-tools 0.8.0 / extra/network CROSS 0
+O -1-------- 186.700 network openvpn 2.1.3 / extra/server CROSS 0
+O -1-------- 186.700 security keynote 2.3 / extra/security CROSS NOPARALLEL 0
+O -1-------- 186.800 base cron 3.0pl1-113 / base/system CROSS 0
+O -1-------- 186.800 base eventlog 0.2.3+20050717 / base/system CROSS 0
+O -1-------- 186.800 network isakmpd 20041012 / extra/security CROSS NOPARALLEL 0
+O -1-------- 186.900 base syslog-ng 2.0.10 / base/system CROSS 0
+O -1-------- 187.000 base sysklogd 1.5 / base/system CROSS 0
+O -1-------- 187.100 base at 3.1.7 / base/tool CROSS 0
+O -1-------- 187.400 base hotplug 2004_09_23 / base/system base/kernel CROSS 0
+O -1-------- 187.600 base setserial 2.17 / base/system CROSS 0
+O -1-------- 187.800 base quota 4.00 / base/system CROSS 0
+O -1-------- 187.900 network fping 2.4b2_to-ipv6 / extra/network CROSS 0
+O -1-------- 188.100 network netkit-ftp 0.17 / base/system CROSS 0
+O -1-------- 188.100 network netkit-tftp 0.17 / base/system CROSS 0
+O -1-------- 188.500 network netkit-telnet 0.17 / base/system CROSS 0
+O -1-------- 188.800 network atftpd 0.7.dffsg-6 / extra/network CROSS DIETLIBC 0
+O -1-------- 188.800 network tftp-hpa 5.0 / base/system CROSS DIETLIBC 0
+O -1-------- 188.900 network msntp 1.6 / extra/development CROSS 0
+O -1-------- 188.900 network ntp 4.2.6p5 / extra/network CROSS 0
+O -1-------- 189.000 network whois 5.0.11 / extra/network CROSS 0
+O -1-------- 189.100 network vsftpd 2.3.4 / extra/server CROSS 0
+O -1-------- 189.200 network micq 0.5.4.1 / extra/multimedia CROSS 0
+O -1-------- 189.400 network libtirpc 0.2.2 / base/system CROSS 0
+O -1-------- 189.400 network portmap 4 / base/system CROSS 0
+O -1-------- 189.500 filesystem nfs-utils 1.2.6 / base/system CROSS NOPARALLEL 0
+O -1-------- 189.800 network traceroute 1.4a12 / base/tool CROSS AUTOMAKE-QUIRK 0
+X -1-------- 189.900 network iptables 1.4.17 / base/system CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 190.000 network iproute2 2.6.38 / base/system CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 190.100 security shorewall 3.2.4 / extra/security CROSS 0
+O -1-------- 190.300 network ipvsadm 1.21-11 / extra/network CROSS NOPARALLEL 0
+O -1-------- 190.300 network ipvsadm2 1.24 / extra/network CROSS NOPARALLEL 0
+O -1-------- 190.600 network irda-utils 0.9.18 / base/system CROSS 0
+X -1-------- 191.100 security dropbear 2012.55 / base/system extra/network CROSS DIETLIBC 0
+O -1-------- 191.100 security openssh 6.0p1 / base/system extra/network CROSS 0
+O -1-------- 191.800 scientific euler 1.61.0 / extra/scientific CROSS 0
+O -1-------- 192.400 network iperf 2.4.5 / extra/tool CROSS 0
+O -1-------- 192.400 network netperf 2.6.0 / extra/tool CROSS 0
+O -1-------- 192.700 network nudelstats 0.5 / extra/tool CROSS 0
+O -1-------- 193.200 x11 secpanel 0.5.1 / extra/filesystem CROSS 0
+O -1-------- 193.300 network ser2net 2.7 / extra/network CROSS 0
+O -1-------- 193.400 develop sloccount 2.26 / extra/development CROSS 0
+O -1-------- 193.500 network snownews 1.5.12 / extra/office CROSS 0
+O -1-------- 193.600 archiver taper 6.9b / extra/tool CROSS 0
+O -1-------- 193.800 network transconnect 1.3-Beta / extra/network CROSS FPIC-QUIRK 0
+O -1-------- 194.000 base dmraid 1.0.0.rc15 / extra/filesystem CROSS 0
+O -1-------- 194.000 base mdadm 2.6.9 / extra/filesystem CROSS DIETLIBC 0
+O -1-------- 194.100 base sysstat 10.0.3 / base/tool CROSS 0
+O -1-------- 194.400 graphic figlet 222 / extra/tool CROSS 0
+O -1-------- 194.800 develop dfu-programmer 0.5.4 / extra/development CROSS 0
+O -1-------- 194.800 develop sam7utils 0.1.0 / extra/development CROSS 0
+O -1-------- 195.000 archiver ucl 1.03 / extra/tool CROSS 0
+O -1-------- 195.100 archiver upx 3.08 / extra/tool CROSS 0
+O -1-------- 195.300 dictionary dvorakng 0.6.0rc1 / extra/education CROSS 0
+O -1-------- 195.400 graphic cowsay 3.03 / extra/tool CROSS 0
+O -1-------- 195.500 network socket 1.2p1 / extra/network CROSS 0
+O -1-------- 195.600 graphic tetradraw 2.0.2 / extra/editor CROSS 0
+O -1-------- 195.700 network wavemon 0.4.0b / extra/network CROSS 0
+O -1-------- 196.000 base tre 0.7.5 / base/library CROSS 0
+O -1-------- 196.200 office palcal 0.4.3 / extra/office CROSS 0
+O -1-------- 196.500 shells bashcompletion 20050121 / extra/base CROSS 0
+O -1-------- 196.700 mail crm114 20070810-BlameTheSegfault / extra/tool CROSS 0
+O -1-------- 196.900 graphic fbgrab 1.0 / extra/multimedia CROSS 0
+O -1-------- 197.500 audio libmpd 0.20.0 / extra/multimedia CROSS 0
+O -1-------- 197.700 games typespeed 0.6.5 / extra/game CROSS 0
+O -1-------- 197.800 contrib urlview 0.9 / extra/tool CROSS 0
+O -1-------- 198.000 network centericq 4.20.0 / extra/network CROSS 0
+O -1-------- 198.300 scientific upn 1.5 / base/tool CROSS 0
+O -1-------- 198.400 mail bincimap 1.3.4 / extra/server CROSS 0
+O -1-------- 198.400 mail bincimap12 1.2.13final / extra/server CROSS 0
+O -1-------- 198.500 security chkrootkit 0.49 / extra/security CROSS 0
+O -1-------- 198.800 develop eg 1.00 / extra/development CROSS 0
+O -1-------- 199.000 www links 2.7 / extra/network CROSS AUTOMAKE-QUIRK 0
+O -1-------- 199.500 network nd 0.8.2 / extra/network CROSS 0
+O -1-------- 199.600 network pv 1.1.4 / extra/shell CROSS 0
+O -1-------- 199.800 filesystem e2fsimage 0.2.2 / extra/tool CROSS 0
+O -1-------- 199.900 x11 pekwm 0.1.11 / extra/windowmanager CROSS 0
+O -1-------- 200.000 base libx86 1.1 / base/tool CROSS 0
+O -1-------- 200.000 base vlock 1.4 / extra/shell CROSS 0
+O -1-------- 200.000 develop cbase 1.3.6 / extra/development CROSS 0
+O -1-------- 200.000 develop docutils 0.10 / extra/development CROSS 0
+O -1-------- 200.000 develop libdbi 0.8.4 / extra/base CROSS 0
+O -1-------- 200.000 develop libebt 1.3.0 / extra/development CROSS 0
+O -1-------- 200.000 develop libnjb 2.2.7 / extra/development CROSS 0
+O -1-------- 200.000 develop protothreads 1.4 / extra/development CROSS 0
+O -1-------- 200.000 filesystem aufs 2009-10-09 / extra/filesystem CROSS NOPARALLEL 0
+O 01-------- 200.000 filesystem cramfs-tools 1.1 / extra/filesystem CROSS 0
+O -1-------- 200.000 filesystem unionfs 0.2.1-2.5.7 / extra/filesystem CROSS 0
+O -1-------- 200.000 graphic cuneiform 1.1.0 / extra/graphic CROSS 0
+O -1-------- 200.000 graphic fbv 1.0b / extra/graphic CROSS 0
+O -1-------- 200.000 graphic tesseract 2.04 / extra/graphic CROSS 0
+O -1-------- 200.000 lua luacurl 1.2.1 / extra/development CROSS FPIC-QUIRK 0
+O -1-------- 200.000 lua luasocket 2.0.2 / extra/development CROSS 0
+O -1-------- 200.000 mail mini_sendmail 1.3.6 / extra/server CROSS 0
+O -1-------- 200.000 multimedia libxspf 1.2.0 / extra/multimedia CROSS 0
+O -1-------- 200.000 network arptables 0.0.3-4 / extra/security CROSS 0
+O -1-------- 200.000 network ccrtp 2.0.5 / extra/network CROSS 0
+O -1-------- 200.000 network ebtables 2.0.9-2 / extra/security CROSS DIETLIBC 0
+O -1-------- 200.000 network gatling 0.13 / extra/server CROSS DIETLIBC 0
+O -1-------- 200.000 network ipconfig 2006-06-26 / extra/network CROSS DIETLIBC 0
+O -1-------- 200.000 network libixp 0.5 / base/library CROSS 0
+O -1-------- 200.000 network libnl 1.1 / extra/development CROSS 0
+O -1-------- 200.000 network mdyndns 0.2.2 / extra/network CROSS DIETLIBC 0
+O -1-------- 200.000 network mproxy 0.3.1 / extra/network CROSS DIETLIBC 0
+O -1-------- 200.000 network mtcps 0.2.2 / extra/network CROSS DIETLIBC 0
+O -1-------- 200.000 textproc asciidoc 8.6.8 / extra/development CROSS 0
+O -1-------- 200.000 textproc libconfuse 2.6 / extra/base CROSS 0
+O -1-------- 200.000 textproc utf8proc 1.1.5 / base/library CROSS FPIC-QUIRK 0
+O -1-------- 200.000 x11 xosview 1.12 / extra/tool CROSS 0
+O -1-------- 200.020 x11 libsvg 0.1.4 / extra/x11 CROSS 0
+O -1-------- 200.030 x11 libsvg-cairo 0.1.6 / extra/x11 CROSS 0
+O -1-------- 200.100 multimedia xvid4conf 1.12 / extra/multimedia CROSS 0
+O -1-------- 200.400 lua copas 1.1.5 / extra/development CROSS 0
+O -1-------- 200.400 lua luaexpat 1.1.0 / extra/development CROSS 0
+O -1-------- 200.400 lua luafilesystem 1.5.0 / extra/development CROSS FPIC-QUIRK 0
+O -1-------- 200.400 lua luasql 2.1.1 / extra/database CROSS FPIC-QUIRK 0
+O -1-------- 200.400 lua venv 1.1 / extra/development CROSS 0
+O -1-------- 200.400 network pound 2.7a / extra/network CROSS 0
+O -1-------- 200.500 security strongswan 5.0.2 / extra/security CROSS 0
+O -1-------- 200.600 develop cogito 0.18.2 / extra/development CROSS 0
+O -1-------- 200.800 network ngrep 1.45 / extra/tool CROSS 0
+O -1-------- 200.900 gpe hotplug-dbus 0.9 / extra/desktop/gpe CROSS 0
+O -1-------- 200.900 gpe libgpelaunch 0.14 / extra/desktop/gpe CROSS 0
+O -1-------- 200.900 gpe libgpewidget 0.117 / extra/desktop/gpe CROSS 0
+O -1-------- 200.900 gpe libgtkinput 0.3 / extra/desktop/gpe CROSS 0
+O -1-------- 200.900 gpe libgtkstylus 0.3 / extra/desktop/gpe CROSS 0
+O -1-------- 200.900 gpe libxsettings-client 0.17 / extra/desktop/gpe CROSS 0
+O -1-------- 200.900 gpe mbmerlin 0.8.1-2 / extra/desktop/gpe CROSS 0
+O -1-------- 201.000 develop libuninum 2.7 / base/library CROSS 0
+O -1-------- 201.000 textproc msort 8.52 / extra/tool CROSS 0
+O -1-------- 201.700 base fgetty 0.6 / base/system CROSS DIETLIBC 0
+O -1-------- 201.800 audio gtk2mp 0.8.0 / extra/multimedia CROSS 0
+O -1-------- 201.900 audio mpcli 0.17 / extra/multimedia CROSS 0
+O -1-------- 202.100 network dhcp 4.2.0 / base/system extra/server CROSS JAIL 0
+X -1-------- 202.500 base sysfiles 0000 / base/system CROSS DIETLIBC 0
+O -1-------- 202.900 security cvm 0.82 / extra/tool CROSS NOPARALLEL 0
+O -1-------- 203.000 develop libsigsegv 2.10 / extra/development CROSS FPIC-QUIRK 0
+O -1-------- 203.400 network lftp 4.2.3 / extra/network CROSS 0
+O -1-------- 203.600 network stunnel 4.54 / extra/tool CROSS 0
+O -1-------- 203.900 gpe gpe-mininet 0.7 / extra/desktop/gpe CROSS 0
+O -1-------- 203.900 gpe gpe-plucker 0.4 / extra/desktop/gpe CROSS 0
+O -1-------- 203.900 gpe gpe-what 0.43 / extra/desktop/gpe CROSS 0
+O -1-------- 204.000 network bip 0.8.6 / extra/network CROSS 0
+O -1-------- 204.100 network irssi 0.8.15 / extra/network CROSS 0
+O -1-------- 204.200 x11 xforms 1.0.93 / extra/x11 CROSS 0
+O -1-------- 204.800 x11 xplanet 1.2.1 / extra/screensaver CROSS 0
+O -1-------- 204.900 gpe gpe-conf 0.2.9 / extra/desktop/gpe CROSS 0
+O -1-------- 205.000 develop libserial 0.6.0rc1 / extra/development CROSS 0
+O -1-------- 205.000 network libzrtpcpp 2.3.2 / extra/network CROSS 0
+O -1-------- 205.300 x11 wmx 7 / extra/windowmanager CROSS 0
+O -1-------- 205.400 games xtris 1.15 / extra/game CROSS 0
+O -1-------- 205.500 base stress 1.0.4 / base/tool CROSS 0
+O -1-------- 205.500 base stressapptest 1.0.1 / base/tool CROSS 0
+O -1-------- 205.500 scientific diehard 1998-04-03 / extra/scientific CROSS 0
+O -1-------- 205.700 network ezipupdate 3.0.11b7 / extra/network extra/tool CROSS 0
+O -1-------- 205.900 dictionary kanatest 0.4.8 / extra/office CROSS 0
+O -1-------- 205.900 gpe minilite 0.50 / extra/desktop/gpe CROSS 0
+O -1-------- 205.900 gpe minimix 0.9 / extra/desktop/gpe CROSS 0
+O -1-------- 205.900 gpe repton 1.3-gpe0 / extra/desktop/gpe CROSS 0
+O -1-------- 206.300 network scmxx 0.9.0 / extra/office CROSS 0
+O -1-------- 206.400 textproc txt2regex 0.8 / extra/tool CROSS 0
+O -1-------- 206.700 graphic cdlabelgen 4.2.0 / extra/network CROSS 0
+O -1-------- 207.100 network ypbind 3.3 / extra/network CROSS 0
+O -1-------- 207.200 contrib lcdproc 20081022 / extra/server CROSS 0
+O -1-------- 207.300 network netcat 0.7.1 / extra/network CROSS 0
+O -1-------- 208.300 graphic libsdl_gfx 2.0.19beta / extra/development CROSS 0
+O -1-------- 208.400 database metakit 2.4.9.7 / extra/database CROSS 0
+O -1-------- 208.850 textproc libxml++ 2.26.1 / base/library CROSS 0
+O -1-------- 208.899 gpe libgpepimc 0.9 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gnome2 glade3 3.8.1 / extra/desktop/gnome CROSS 0
+O -1-------- 208.900 gpe blueprobe 0.19 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe bluez-pin 0.30 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe detect-stylus 0.13 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-aerial 0.3.0 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-beam 0.2.9 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-bootsplash 1.15 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-dm 0.52 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-edit 0.41 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-filemanager 0.31 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-gallery 0.97 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-go 0.05 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-icons 0.25 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-irc 0.08 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-julia 0.0.6 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-keylock 0.12 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-life 0.2 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-mileage 0.1 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-minicalc 0.06 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-mixer 0.42 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-ownerinfo 0.28 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-question 0.04 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-scap 1.3 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-screenshot 0.4 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-session-scripts 0.68 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-shield 0.31 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-soundbite 1.0.6 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-soundserver 0.4-1 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-su 0.20 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-synctool 0.2 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-tetris 0.6-4 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe gpe-wlancfg 0.2.7 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libcontactsdb 0.5 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libdisplaymigration 0.99 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libdm 0.10 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libeventdb 0.90 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libhandoff 0.1 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libmimedir 0.4.3 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libschedule 0.17 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libsoundgen 0.6 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libtododb 0.11 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe libxsettings 0.11 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe miniclipboard 0.3 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe nsqld 0.5.3 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe scap 0.1 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe teleport 0.34 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 gpe xserver-common 1.34 / extra/desktop/gpe CROSS 0
+O -1-------- 208.900 x11 grandr 0.1 / extra/x11 CROSS 0
+O -1-------- 208.950 gpe libgpevtype 0.50 / extra/desktop/gpe CROSS 0
+O -1-------- 209.000 gpe gpe-clock 0.27 / extra/desktop/gpe CROSS 0
+O -1-------- 209.000 gpe gpe-contacts 0.49 / extra/desktop/gpe CROSS 0
+O -1-------- 209.000 gpe gpe-timesheet 0.32 / extra/desktop/gpe CROSS 0
+O -1-------- 209.000 gpe gpe-todo 0.58 / extra/desktop/gpe CROSS 0
+O -1-------- 209.100 network librsync 0.9.7 / extra/network CROSS 0
+O -1-------- 209.700 develop git 1.8.1.3 / extra/development CROSS 0
+O -1-------- 209.700 develop subversion 1.6.17 / extra/server extra/development DIETLIBC CROSS 0
+O -1-------- 209.701 ruby ruby 1.9.2-p136 / extra/development CROSS 0
+O -1-------- 209.800 multimedia libosip 0.9.7 / extra/network CROSS 0
+O -1-------- 209.900 gpe gpe-announce 0.13 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-appmgr 2.8 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-autostarter 0.12 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-bluetooth 0.56 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-buttonbox 0.5 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-calculator 0.2 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-taskmanager 0.20 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpe-windowlist 0.1 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe gpesyncd 2.0 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 gpe xst 0.15 / extra/desktop/gpe CROSS 0
+O -1-------- 209.900 multimedia libosip2 4.0.0 / extra/network CROSS DIETLIBC 0
+O -1-------- 210.000 base mkpkg 2003-09-09 / base/system CROSS 0
+O -1-------- 210.000 base pmount 0.9.21 / extra/network CROSS 0
+O -1-------- 210.000 editors mined 2000.11 / extra/editor CROSS 0
+O -1-------- 210.100 network ncp 1.2.4 / extra/network CROSS 0
+O -1-------- 210.300 emulators dosbox 0.74 / extra/emulator CROSS 0
+O -1-------- 210.900 x11 gscmxx 0.4.1 / extra/office CROSS 0
+O -1-------- 211.000 multimedia libiec61883 1.2.0 / extra/multimedia CROSS 0
+O -1-------- 211.100 multimedia dvgrab 3.5 / extra/multimedia CROSS 0
+O -1-------- 212.000 games libkxl 1.1.7 / extra/game CROSS 0
+O -1-------- 214.100 games gnuchess 6.0.2 / extra/game CROSS 0
+O -1-------- 215.000 games lpairs 1.0.4 / extra/game CROSS 0
+O -1-------- 215.900 games simutrans 0_84_21_2 / extra/game CROSS 0
+O -1-------- 218.000 games wakkabox 1.1.0 / extra/game CROSS 0
+O -1-------- 218.400 games xskat 4.0 / extra/game CROSS 0
+O -1-------- 218.500 games flightgear-base 1.0.0 / extra/game CROSS 0
+O -1-------- 218.800 gnome2 gtkextra 2.0.0 / extra/development CROSS 0
+O -1-------- 218.850 gnome2 gtkimageview 1.6.4 / extra/development CROSS 0
+O -1-------- 218.900 filesystem parted 2.3 / extra/filesystem CROSS 0
+O -1-------- 219.000 network dnrd 2.20.3 / extra/network extra/server CROSS 0
+O -1-------- 219.200 filesystem gpart 0.1h / extra/filesystem CROSS 0
+O -1-------- 219.300 mail grepmail 5.3033 / extra/tool CROSS 0
+O -1-------- 219.600 mail muttprint 0.72d / extra/tool CROSS 0
+O -1-------- 219.700 filesystem ntfsprogs 2.0.0 / extra/filesystem CROSS 0
+O -1-------- 220.000 develop arena 0.9.13 / extra/development CROSS 0
+O -1-------- 220.000 develop small 273 / extra/development CROSS 0
+O -1-------- 220.000 network rdesktop 1.7.1 / extra/network CROSS 0
+O -1-------- 220.600 x11 gtkpod 0.99.14 / extra/multimedia CROSS 0
+O -1-------- 221.000 multimedia easytag 2.1.7 / extra/multimedia CROSS 0
+O -1-------- 221.600 games scummvm 1.5.0 / extra/game CROSS 0
+O -1-------- 222.200 xfce4 gtk-xfce-engine2 2.8.1 / extra/desktop/xfce CROSS 0
+O -1-------- 222.300 xfce4 libxfce4util 4.8.2 / extra/desktop/xfce CROSS 0
+O -1-------- 222.350 xfce4 dbh 1.0.24 / base/library CROSS 0
+O -1-------- 222.400 xfce4 xfconf 4.8.1 / extra/desktop/xfce CROSS 0
+O -1-------- 222.500 xfce4 garcon 0.1.12 / extra/desktop/xfce CROSS 0
+O -1-------- 222.500 xfce4 libxfce4ui 4.8.1 / extra/desktop/xfce CROSS 0
+O -1-------- 222.500 xfce4 libxfcegui4 4.8.1 / extra/desktop/xfce CROSS 0
+O -1-------- 223.100 xfce4 xfce-utils 4.8.3 / extra/desktop/xfce CROSS 0
+O -1-------- 223.200 xfce4 xfwm4 4.8.3 / extra/desktop/xfce CROSS 0
+O -1-------- 223.400 xfce4 xfce4-settings 4.8.3 / extra/desktop/xfce CROSS 0
+O -1-------- 223.400 xfce4 xfwm4-themes 4.6.0 / extra/desktop/xfce CROSS 0
+O -1-------- 223.500 xfce4 xfce4-panel 4.8.6 / extra/desktop/xfce CROSS 0
+O -1-------- 224.000 xfce4 orage 4.8.4 / extra/desktop/xfce CROSS 0
+O -1-------- 224.500 x11 idesk 0.7.5 / extra/multimedia CROSS 0
+O -1-------- 224.700 x11 worker 2.19.4 / extra/tool CROSS 0
+O -1-------- 225.100 gnome2 gnome-commander 1.2.8.14 / extra/desktop/gnome CROSS 0
+O -1-------- 225.600 x11 wmpal 0.6.1 / extra/windowmanager CROSS 0
+O -1-------- 250.000 lua cgilua 5.0 / extra/development CROSS 0
+O -1-------- 250.300 base serpnp 0.0.2 / base/system CROSS 0
+O -1-------- 260.000 gnome2 pidgin 2.7.3 / extra/network CROSS 0
+O -1-------- 300.000 audio soundtouch 1.5.0 / extra/multimedia CROSS 0
+O -1-------- 300.000 database unixodbc 2.2.11 / extra/database CROSS 0
+O -1-------- 300.000 editors moe 1.3 / extra/editor CROSS 0
+O -1-------- 300.000 textproc libnxml 0.18.3 / base/library CROSS 0
+O -1-------- 300.300 zope kupu 1.2.1 / extra/tool CROSS 0
+O -1-------- 301.000 contrib rtai 3.6 / base/kernel CROSS NOPARALLEL 0
+O -1-------- 390.000 filesystem libisofs 1.2.6 / extra/filesystem CROSS 0
+O -1-------- 400.000 contrib chntpw 080526 / extra/base CROSS 0
+O -1-------- 400.000 develop libtextcat 2.2 / extra/tool CROSS 0
+O -1-------- 400.000 develop poco 1.3.6p2 / extra/development CROSS 0
+O -1-------- 400.000 filesystem libburn 1.2.6 / extra/filesystem CROSS 0
+O -1-------- 400.000 filesystem libisoburn 1.2.6 / extra/filesystem CROSS 0
+O -1-------- 400.000 graphic corona 1.0.2 / extra/graphic CROSS 0
+O -1-------- 400.000 graphic freeimage 393 / extra/graphic CROSS FPIC-QUIRK 0
+O -1-------- 400.000 graphic libxmi 1.2 / extra/graphic CROSS AUTOMAKE-QUIRK 0
+X -1-------- 400.000 matchbox libfakekey 0.1 / extra/x11 CROSS 0
+X -1-------- 400.000 matchbox libmatchbox 1.9 / extra/x11 CROSS 0
+O -1-------- 400.000 network dhcpclient 20071104 / extra/network CROSS 0
+O -1-------- 400.000 textproc xerces-c 2.8.0 / base/library NOPARALLEL CROSS 0
+O -1-------- 400.400 develop v8 3.6.6.20 / extra/development CROSS 0
+X -1-------- 400.400 network gsmd r3088 / extra/development CROSS 0
+O -1-------- 400.400 xfce4 libxfce4menu 4.6.2 / extra/desktop/xfce CROSS 0
+O -1-------- 400.450 xfce4 xfdesktop 4.8.3 / extra/desktop/xfce CROSS 0
+O -1-------- 401.000 matchbox matchbox-common 0.9.1 / extra/x11 CROSS 0
+O -1-------- 401.000 matchbox matchbox-desktop 0.9.1 / extra/x11 CROSS 0
+X -1-------- 401.000 matchbox matchbox-keyboard 0.1 / extra/x11 CROSS 0
+O -1-------- 401.000 matchbox matchbox-panel 0.9.3 / extra/x11 CROSS 0
+O -1-------- 401.000 matchbox matchbox-themes-extra 0.3 / extra/x11 CROSS 0
+X -1-------- 401.000 matchbox matchbox-window-manager 1.1 / extra/x11 CROSS 0
+O -1-------- 402.000 matchbox matchbox-panel-manager 0.1 / extra/x11 CROSS 0
+O -1-------- 405.000 scientific plotutils 2.6 / extra/graphic CROSS 0
+O -1-------- 500.000 graphic exact-image 0.8.7 / extra/multimedia CROSS 0
+O -1-------- 500.000 graphic libtwin 0.0.3 / extra/multimedia CROSS 0
+O -1-------- 500.000 text2speech flite 1.2 / extra/multimedia CROSS 0
+O -1-------- 500.000 x11 cairo-clock 0.3.3-1 / extra/tool CROSS 0
+X -1-------- 500.500 develop gdb 7.5.1 / base/development CROSS 0
+O -1-------- 600.000 multimedia unicap 0.9.12 / extra/multimedia CROSS 0
+O -1-------- 600.000 xfce4 xfce4-cpugraph-plugin 1.0.5 / extra/desktop/xfce CROSS 0
+O -1-------- 600.000 xfce4 xfce4-notes-plugin 1.7.7 / extra/desktop/xfce CROSS 0
+O -1-------- 600.000 xfce4 xfce4-xmms-plugin 0.5.2 / extra/desktop/xfce CROSS 0
+O -1-------- 620.000 develop bufferpool 0.0.3 / extra/multimedia CROSS 0
+O -1-------- 621.000 develop netembryo 0.0.8 / extra/multimedia CROSS 0
+O -1-------- 637.000 network dnsmasq 2.65 / extra/network CROSS 0
+O -1-------- 650.000 develop xapian-core 1.2.4 / extra/tool CROSS 0
+O -1-------- 650.000 multimedia vamps 0.9.5 / extra/multimedia CROSS 0
+O -1-------- 660.000 security gsasl 0.2.27 / extra/security CROSS 0
+O -1-------- 663.000 dictionary deu-eng 20030917 / extra/education CROSS 0
+O -1-------- 663.000 dictionary eng-deu 20030917 / extra/education CROSS 0
+O -1-------- 700.000 develop mcs 0.4.1 / extra/development CROSS 0
+O -1-------- 700.000 gnome2 diacanvas 0.14.4 / extra/tool CROSS NOPARALLEL 0
+X -1-------- 700.000 network clockspeed 0.62 / extra/network CROSS DIETLIBC 0
+O -1-------- 700.000 textproc sablot 1.0.2 / extra/text CROSS 0
+O -1-------- 706.000 develop yajl 2.0.4 / extra/development CROSS 0
+O -1-------- 799.900 develop cppunit 1.12.1 / extra/development CROSS 0
+O -1-------- 800.000 archiver bsdiff 4.3 / extra/development CROSS DIETLIBC 0
+O -1-------- 800.000 archiver edelta 0.10b / extra/development CROSS 0
+O -1-------- 800.000 archiver icoutils 0.28.0 / extra/tool CROSS 0
+O -1-------- 800.000 archiver lbzip2 0.23 / base/tool CROSS 0
+O -1-------- 800.000 archiver liblzf 3.2 / base/library CROSS 0
+O -1-------- 800.000 archiver libmspack 2005-02-28 / extra/archive CROSS 0
+O -1-------- 800.000 archiver libtar 1.2.11 / extra/archive CROSS 0
+O -1-------- 800.000 archiver libzip 0.10.1 / extra/archive CROSS 0
+O -1-------- 800.000 archiver tnef 1.4.9 / extra/tool CROSS 0
+O -1-------- 800.000 audio audacious 1.3.2 / extra/multimedia CROSS 0
+O -1-------- 800.000 audio ecasound 2.9.0 / extra/multimedia CROSS 0
+O -1-------- 800.000 audio libiriverdb 1.5 / extra/multimedia CROSS 0
+O -1-------- 800.000 audio libshout 2.3.1 / extra/network CROSS 0
+O -1-------- 800.000 audio streamripper 1.64.6 / extra/multimedia CROSS 0
+O -1-------- 800.000 base apcupsd 3.14.9 / extra/tool CROSS 0
+O -1-------- 800.000 base atop 1.25 / base/tool CROSS 0
+O -1-------- 800.000 base cronolog 1.6.2 / base/tool CROSS 0
+O -1-------- 800.000 base ipmiutil 2.8.2 / extra/tool CROSS NOPARALLEL 0
+O -1-------- 800.000 base multitail 5.2.1 / extra/tool CROSS 0
+O -1-------- 800.000 base prngd 0.9.29 / extra/tool CROSS 0
+O -1-------- 800.000 base quotatool 1.4.10 / base/system CROSS 0
+O -1-------- 800.000 base sam 0.0-devel / extra/tool CROSS 0
+O -1-------- 800.000 base tmux 0.9 / extra/tool CROSS 0
+O -1-------- 800.000 base vbetool 1.1 / base/tool CROSS 0
+O -1-------- 800.000 contrib fbterm 1.5 / extra/tool CROSS 0
+O -1-------- 800.000 contrib i8kutils 1.25 / extra/tool CROSS 0
+O -1-------- 800.000 contrib kazehakase 0.4.6 / extra/network CROSS 0
+O -1-------- 800.000 contrib libcddb 1.3.2 / extra/multimedia CROSS 0
+O -1-------- 800.000 contrib lshw B.02.15 / extra/tool CROSS 0
+O -1-------- 800.000 database dbf 0.8.3.1 / extra/database CROSS 0
+O -1-------- 800.000 database opendbx 1.2.3 / extra/database CROSS 0
+O -1-------- 800.000 develop bcpp 20050725 / extra/development CROSS 0
+O -1-------- 800.000 develop bdiff 1.0.5 / extra/development CROSS 0
+O -1-------- 800.000 develop cflow 1.2 / extra/development CROSS 0
+O -1-------- 800.000 develop cscope 15.6 / extra/development CROSS 0
+O -1-------- 800.000 develop cxxtools 2.1.1 / extra/development CROSS 0
+O -1-------- 800.000 develop flawfinder 1.26 / extra/tool CROSS 0
+O -1-------- 800.000 develop gputils 1.0.0 / extra/development CROSS 0
+O -1-------- 800.000 develop libghthash 0.6.2 / extra/development CROSS 0
+O -1-------- 800.000 develop libiax 0.2.2 / extra/development CROSS 0
+O -1-------- 800.000 develop libpri 1.4.11.5 / extra/development CROSS 0
+O -1-------- 800.000 develop libtomcrypt 1.17 / extra/development CROSS 0
+O -1-------- 800.000 develop libtomfastmath 0.12 / extra/development CROSS 0
+O -1-------- 800.000 develop libtommath 0.42.0 / extra/development CROSS 0
+O -1-------- 800.000 develop libtompoly 0.40 / extra/development CROSS 0
+O -1-------- 800.000 develop log4cpp 1.1 / base/library CROSS 0
+O -1-------- 800.000 develop loki 0.1.7 / extra/development CROSS 0
+O -1-------- 800.000 develop lxr 0.3 / extra/development CROSS 0
+O -1-------- 800.000 develop odyssey 0.5 / extra/development CROSS 0
+O -1-------- 800.000 develop re2c 0.13.5 / extra/tool CROSS 0
+O -1-------- 800.000 develop roundup 1.4.21 / extra/tool CROSS 0
+O -1-------- 800.000 develop sourcenav 6.0 / base/development CROSS 0
+O -1-------- 800.000 develop srecord 1.53 / extra/development CROSS NOPARALLEL 0
+O -1-------- 800.000 develop ucommon 6.0.3 / extra/development CROSS 0
+O -1-------- 800.000 develop viewvc 1.1.15 / extra/tool CROSS 0
+O -1-------- 800.000 editors aoeui 1.1.1 / extra/editor CROSS 0
+O -1-------- 800.000 editors tea 17.6.6 / extra/editor CROSS 0
+O -1-------- 800.000 emulators pearpc 2009-10-18 / extra/emulator CROSS 0
+O -1-------- 800.000 filesystem b5i2iso 0.2 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem bin2iso 0.2 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem ccd2iso 0.3 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem cdi2iso 0.1 / extra/tool CROSS 0
+O 01-------- 800.000 filesystem cramfsswap 1.4.1 / extra/filesystem CROSS 0
+O -1-------- 800.000 filesystem daa2iso 0.1.7c / extra/tool CROSS 0
+O -1-------- 800.000 filesystem dmg2img 1.6.4 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem genext2fs 1.4.1 / base/tool CROSS 0
+O -1-------- 800.000 filesystem iat 0.1.7 / extra/filesystem CROSS 0
+O -1-------- 800.000 filesystem mdf2iso 0.3 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem nrg2iso 0.4 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem p3nfs 5.18 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem pdi2iso 0.1 / extra/tool CROSS 0
+O -1-------- 800.000 filesystem regionset 0.2 / extra/filesystem CROSS 0
+O -1-------- 800.000 filesystem sshfs 2.2 / extra/filesystem CROSS 0
+O -1-------- 800.000 filesystem uif2iso 0.1.7a / extra/tool CROSS 0
+O -1-------- 800.000 firmware bcm43xx-fw 1.3-1ubuntu2 / base/kernel CROSS 0
+O -1-------- 800.000 firmware zd1201-fw 0.14 / base/kernel CROSS 0
+O -1-------- 800.000 fonts dejavu-ttf-fonts 2.32 / extra/font CROSS 0
+O -1-------- 800.000 games ctris 0.42 / extra/game CROSS 0
+O -1-------- 800.000 games xbomb 2.2 / extra/game CROSS 0
+O -1-------- 800.000 gnome2 cellwriter 1.3.5 / extra/tool CROSS 0
+O -1-------- 800.000 gnome2 galculator 1.3.4 / extra/tool CROSS 0
+O -1-------- 800.000 gnome2 gtklp 1.2.10 / extra/tool CROSS 0
+O -1-------- 800.000 gnome2 gtkterm 0.99.4 / extra/shell CROSS 0
+O -1-------- 800.000 gnome2 leafpad 0.8.18.1 / extra/editor extra/desktop/gnome CROSS 0
+O -1-------- 800.000 gnome2 libgksuui 1.0.7 / extra/tool extra/security extra/login CROSS 0
+O -1-------- 800.000 gnome2 meld 1.3.3 / extra/editor extra/desktop/gnome CROSS 0
+O -1-------- 800.000 gnome2 termit 2.3.0 / extra/shell CROSS 0
+O -1-------- 800.000 graphic dcraw 9.17 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic enblend 4.0 / extra/multimedia CROSS 0
+O -1-------- 800.000 graphic escreen 0.0.4 / base/boot CROSS 0
+O -1-------- 800.000 graphic flame 2.7.2 / extra/multimedia CROSS 0
+O -1-------- 800.000 graphic hp2xx 3.4.4 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic hpgl-distiller 0.9.1 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic libraw 0.10.0 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic libwmf 0.2.8.4 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic multican 0.0.5 / extra/graphic CROSS FPIC-QUIRK 0
+O -1-------- 800.000 graphic perceptualdiff 1.0 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic recoverjpeg 2.1.1 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic ufraw 0.18 / extra/tool CROSS 0
+O -1-------- 800.000 graphic unpaper 0.3 / extra/graphic CROSS 0
+O -1-------- 800.000 graphic vigra 1.6.0 / extra/development CROSS 0
+O -1-------- 800.000 graphic vips 7.10.21 / extra/multimedia CROSS FPIC-QUIRK 0
+O -1-------- 800.000 java javawm 1.4.5 / extra/emulator CROSS 0
+O -1-------- 800.000 lua lpeg 0.10.2 / base/tool CROSS FPIC-QUIRK 0
+O -1-------- 800.000 lua lua-bitlib 26 / extra/database CROSS 0
+O -1-------- 800.000 lua lua-curses 0.1 / extra/tool CROSS 0
+O -1-------- 800.000 lua lua-lanes 2.0.11 / base/tool CROSS 0
+O -1-------- 800.000 lua lua-pcre 2.4.0 / base/tool CROSS FPIC-QUIRK 0
+O -1-------- 800.000 lua lua-posix 5.1.11 / extra/development CROSS 0
+O -1-------- 800.000 lua lua-rx 2.4.0 / base/tool CROSS FPIC-QUIRK 0
+O -1-------- 800.000 lua lua-sqlite3 0.4.1 / extra/database FPIC-QUIRK CROSS 0
+O -1-------- 800.000 lua luaprofiler 2.0.2 / base/tool CROSS FPIC-QUIRK 0
+O -1-------- 800.000 lua luasec 0.4.1 / base/tool CROSS 0
+O -1-------- 800.000 lua lunit 0.5 / extra/database CROSS 0
+O -1-------- 800.000 mail getmail 4.25.0 / extra/office CROSS 0
+O -1-------- 800.000 mail msmtp 1.4.30 / extra/network CROSS 0
+O -1-------- 800.000 mail nail 11.25 / extra/tool CROSS 0
+O -1-------- 800.000 mail qmqtool 1.11 / extra/tool CROSS 0
+O -1-------- 800.000 mail ssmtp 2.63-1 / extra/network CROSS 0
+O -1-------- 800.000 multimedia schroedinger 1.0.11 / extra/multimedia CROSS 0
+O -1-------- 800.000 network acx100 20080210 / base/system CROSS 0
+O -1-------- 800.000 network arpalert 2.0.12 / extra/security CROSS 0
+O -1-------- 800.000 network arphound 1.3.2 / extra/tool CROSS 0
+O -1-------- 800.000 network arpwatch-ng 1.7 / extra/network CROSS 0
+O -1-------- 800.000 network asterisk-addons 1.4.6 / extra/tool CROSS 0
+O -1-------- 800.000 network balance 3.35 / extra/network CROSS 0
+O -1-------- 800.000 network btpd 0.15 / extra/network CROSS 0
+O -1-------- 800.000 network callweaver 1.2.1 / extra/network CROSS 0
+O -1-------- 800.000 network cryptcat 1.2.1 / extra/tool CROSS 0
+O -1-------- 800.000 network djbdns 1.05 / extra/tool extra/server CROSS DIETLIBC 0
+O -1-------- 800.000 network ffproxy 1.6 / extra/network CROSS 0
+O -1-------- 800.000 network fnord 1.10 / extra/tool CROSS DIETLIBC NO-SSP 0
+O -1-------- 800.000 network gpsd 2.96 / extra/network CROSS 0
+O -1-------- 800.000 network haserl 0.9.29 / extra/network CROSS 0
+O -1-------- 800.000 network hostap-utils 0.4.7 / base/kernel CROSS 0
+O -1-------- 800.000 network hostapd 2.0 / base/kernel CROSS 0
+O -1-------- 800.000 network l7-filter 2.22 / extra/network CROSS 0
+O -1-------- 800.000 network leafnode 1.11.8 / extra/network CROSS 0
+O -1-------- 800.000 network macchanger 1.5.0 / extra/tool CROSS 0
+O -1-------- 800.000 network mininet 2005-12-26 / extra/network CROSS DIETLIBC NOPARALLEL 0
+O -1-------- 800.000 network packeth 1.6 / extra/network CROSS 0
+O -1-------- 800.000 network pmacct 0.14.2 / extra/network CROSS 0
+O -1-------- 800.000 network pureftpd 1.0.36 / extra/tool CROSS 0
+O -1-------- 800.000 network r1000 1.05 / base/system CROSS 0
+O -1-------- 800.000 network sipsak 0.9.6 / extra/tool CROSS 0
+O -1-------- 800.000 network smbldap-tools 0.9.2 / extra/tool CROSS 0
+O -1-------- 800.000 network socat 1.6.0.1 / extra/network CROSS 0
+O -1-------- 800.000 network specter 1.4 / base/system CROSS 0
+O -1-------- 800.000 network tcpflow 0.21 / extra/tool CROSS 0
+O -1-------- 800.000 network tsocks 1.8beta5 / extra/network CROSS 0
+O -1-------- 800.000 network tunctl 1.4 / extra/tool CROSS 0
+O -1-------- 800.000 network udhcp 0.9.x-9568 / extra/server CROSS DIETLIBC 0
+O -1-------- 800.000 network utftpd 0.2.4 / extra/network CROSS 0
+O -1-------- 800.000 network validator 1.3.4.14 / extra/development CROSS 0
+O -1-------- 800.000 network vtun 3.0.3 / extra/tool CROSS 0
+X -1-------- 800.000 network wpa_supplicant 2.0 / extra/network CROSS NOPARALLEL 0
+O -1-------- 800.000 rfid opcd-test r291 / extra/rfid CROSS 0
+O -1-------- 800.000 scientific comedi-driver 0.7.76 / extra/scientific 0
+O -1-------- 800.000 security amap 5.2 / extra/tool CROSS 0
+O -1-------- 800.000 security antidote 0.5.10 / extra/tool CROSS 0
+O -1-------- 800.000 security corkscrew 2.0 / extra/security CROSS 0
+O -1-------- 800.000 security matrixssl 1.8.3 / base/library CROSS 0
+O -1-------- 800.000 security metasploit 2.5 / extra/tool CROSS 0
+O -1-------- 800.000 security p0f 2.0.8 / extra/tool CROSS 0
+O -1-------- 800.000 security pam_pkcs11 0.6.8 / extra/tool CROSS 0
+O -1-------- 800.000 security pamtester 0.1.2 / extra/tool CROSS 0
+O -1-------- 800.000 security pwgen 2.06 / extra/tool CROSS 0
+O -1-------- 800.000 security rssh 2.3.3 / extra/shell CROSS 0
+O -1-------- 800.000 security swatch 3.2.3 / extra/security CROSS 0
+O -1-------- 800.000 security tlswrap 1.04 / extra/security CROSS 0
+O -1-------- 800.000 security wipe 2.3.1 / extra/tool CROSS 0
+O -1-------- 800.000 security xyssl 0.9 / extra/security CROSS 0
+O -1-------- 800.000 shells dash 0.5.7 / extra/shell CROSS DIETLIBC 0
+O -1-------- 800.000 shells scponly 4.6 / extra/shell CROSS 0
+O -1-------- 800.000 text2speech espeak 1.31 / extra/multimedia CROSS 0
+O -1-------- 800.000 textproc glark 1.8.0 / base/tool CROSS 0
+O -1-------- 800.000 textproc libmrss 0.19.2 / base/library CROSS 0
+O -1-------- 800.000 textproc pdfjam 1.20 / extra/text CROSS 0
+O -1-------- 800.000 textproc text2pdf 1.1 / extra/tool CROSS 0
+O -1-------- 800.000 textproc xmlsec 1.2.18 / base/library CROSS 0
+O -1-------- 800.000 x11 dmenu 4.0 / extra/windowmanager CROSS 0
+O -1-------- 800.000 x11 dwm 5.8.1 / extra/windowmanager CROSS 0
+O -1-------- 800.000 x11 freenx 0.7.1 / extra/network CROSS 0
+O -1-------- 800.000 x11 jwm 2.1.0 / extra/x11 CROSS 0
+O -1-------- 800.000 x11 ratpoison 1.4.5 / extra/windowmanager CROSS 0
+O -1-------- 800.000 x11 torsmo 0.18 / extra/tool CROSS 0
+O -1-------- 800.000 x11 wmctrl 1.07 / extra/tool CROSS 0
+O -1-------- 800.000 x11 wmii 3.6 / extra/windowmanager CROSS 0
+O -1-------- 800.000 x11 xstroke 0.6 / extra/tool CROSS 0
+O -1-------- 800.000 xfce4 mousepad 0.2.16 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 thunar-thumbnailers 0.4.1 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 tumbler 0.1.27 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xarchiver 0.5.2 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-appfinder 4.8.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-battery-plugin 0.5.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-clipman-plugin 1.2.3 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-datetime-plugin 0.5.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-dict-plugin 0.2.1 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-diskperf-plugin 2.3.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-eyes-plugin 4.4.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-fsguard-plugin 0.4.2 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-netload-plugin 1.0.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-places-plugin 0.0.9 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-quicklauncher-plugin 1.9.4 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-radio-plugin 0.5.1 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-screenshooter-plugin 1.7.9 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-session 4.8.3 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-systemload-plugin 0.4.2 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-taskmanager 1.0.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-timer-plugin 0.6.1 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-wavelan-plugin 0.5.6 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xfce4 xfce4-weather-plugin 0.7.1 / extra/desktop/xfce CROSS 0
+O -1-------- 800.000 xorg xf86-input-evtouch 0.8.8 / base/x11 CROSS 0
+O -1-------- 800.000 xorg xf86-input-fujitouch 0.6.4 / base/x11 CROSS 0
+O -1-------- 800.001 graphic seamstress 1.0.2 / extra/multimedia CROSS 0
+O -1-------- 800.001 network prozilla 2.0.4 / extra/network CROSS 0
+O -1-------- 800.001 xfce4 thunar-volman 0.6.0 / extra/desktop/xfce CROSS 0
+O -1-------- 800.010 develop libtomfloat 0.02 / extra/development CROSS 0
+O -1-------- 800.106 games xrick 021212 / extra/game CROSS 0
+O -1-------- 800.108 x11 nextaw 0.15.1 / extra/development CROSS 0
+O -1-------- 800.109 x11 mowitz 0.3.1 / extra/development CROSS 0
+O -1-------- 800.113 network gift-fasttrack 0.8.9 / extra/network CROSS 0
+O -1-------- 800.114 network giftcurs 0.6.2 / extra/network CROSS 0
+O -1-------- 800.115 network giftoxic 0.0.10 / extra/network CROSS 0
+O -1-------- 800.117 archiver lxsplit 0.1.1 / base/tool CROSS 0
+O -1-------- 801.000 contrib asunder 0.1.0 / extra/multimedia CROSS 0
+O -1-------- 801.000 contrib beep 1.3 / extra/tool CROSS 0
+O -1-------- 801.000 contrib watchdog 5.6 / extra/tool CROSS 0
+O -1-------- 801.000 graphic libpano 2.9.14 / extra/multimedia CROSS 0
+O -1-------- 801.000 graphic nip2 7.10.21 / extra/multimedia CROSS 0
+O -1-------- 801.000 mail mdmh 0.7 / extra/tool CROSS 0
+O -1-------- 801.000 network scope 0.0.4 / extra/tool CROSS 0
+O -1-------- 801.000 network sjinn 0.01 / extra/tool CROSS 0
+O -1-------- 801.000 network slsnif 0.4.4 / extra/tool CROSS 0
+O -1-------- 809.000 network aria2 1.16.3 / extra/network CROSS 0
+O -1-------- 855.000 graphic geeqie 1.1 / extra/multimedia CROSS 0
+O -1-------- 860.000 emulators libdsk 1.2.1 / extra/emulator CROSS 0
+O -1-------- 861.000 emulators lib765 0.4.2 / extra/emulator CROSS 0
+O -1-------- 861.000 emulators libspectrum 1.0.0 / extra/emulator CROSS 0
+O -1-------- 983.100 xfce4 xfce4-xkb-plugin 0.4.3 / extra/desktop/xfce CROSS 0
+O -1-------- 999.500 base man-pages 3.46 / extra/documentation CROSS 0
+O -1-------- 999.800 develop t2-src 0000 / base/development CROSS 0
+O -1-------- 999.900 develop t2-debug 0000 / base/system CROSS 0
+O -1-------- 999.999 base 99-final 0000 / base/system CROSS 0
